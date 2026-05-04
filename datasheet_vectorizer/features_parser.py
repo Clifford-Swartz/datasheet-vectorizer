@@ -139,6 +139,35 @@ def derive_cpu_from_part(part_number):
     return None
 
 
+def _apply_field(out, field, val):
+    """Apply a single regex match to the output dict. Used by temperature
+    fields where multiple matches in the text need merging."""
+    if field == "TEMP_MAX":
+        out.setdefault("TempRange_Min", "-40")
+        cur = out.get("TempRange_Max", "")
+        try:
+            if not cur or int(val) > int(cur):
+                out["TempRange_Max"] = val
+        except (ValueError, TypeError):
+            out.setdefault("TempRange_Max", val)
+    elif field == "TEMP_INDUSTRIAL":
+        out.setdefault("TempRange_Min", "-40")
+        cur = out.get("TempRange_Max", "")
+        try:
+            if not cur or int(val) > int(cur):
+                out["TempRange_Max"] = val
+        except (ValueError, TypeError):
+            out.setdefault("TempRange_Max", val)
+    elif field == "TEMP_EXTENDED":
+        out.setdefault("TempRange_Min", "-40")
+        cur = out.get("TempRange_Max", "")
+        try:
+            if not cur or int(val) > int(cur):
+                out["TempRange_Max"] = val
+        except (ValueError, TypeError):
+            out["TempRange_Max"] = val
+
+
 def parse_features(pdf_path, max_pages=8, target_part=None):
     """
     Run all patterns against the features text. Return dict of extracted fields.
@@ -150,6 +179,17 @@ def parse_features(pdf_path, max_pages=8, target_part=None):
     for pattern, field, transform in PATTERNS:
         matches = list(re.finditer(pattern, text, re.IGNORECASE))
         if not matches:
+            continue
+        # For temperature fields, scan ALL matches and let the per-field handler
+        # below pick the right one (e.g. take the maximum). For other fields,
+        # first match is fine.
+        if field in ("TEMP_MAX", "TEMP_INDUSTRIAL", "TEMP_EXTENDED"):
+            for m in matches:
+                try:
+                    val = transform(m)
+                except Exception:
+                    continue
+                _apply_field(out, field, val)
             continue
         m = matches[0]
         try:
@@ -163,7 +203,13 @@ def parse_features(pdf_path, max_pages=8, target_part=None):
             out.setdefault("Voltage_Max", v_max)
         elif field == "TEMP_MAX":
             out.setdefault("TempRange_Min", "-40")
-            out.setdefault("TempRange_Max", val)
+            # Prefer the highest max we see — handles datasheets that list multiple grades
+            cur = out.get("TempRange_Max", "")
+            try:
+                if not cur or int(val) > int(cur):
+                    out["TempRange_Max"] = val
+            except (ValueError, TypeError):
+                out.setdefault("TempRange_Max", val)
         elif field == "TEMP_INDUSTRIAL":
             out.setdefault("TempRange_Min", "-40")
             # Don't overwrite a higher (Extended) max

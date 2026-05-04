@@ -100,6 +100,12 @@ RAW_TO_CANONICAL = {
     "amplifier operational": "Number_of_Op_Amps",  # if word order swapped
     "operational refiilpma": "Number_of_Op_Amps",
     "operational amplifier (op)": "Number_of_Op_Amps",
+    "srefiilpma po": "Number_of_Op_Amps",  # dsPIC33AK reversed: "Op Amplifiers"
+    "po srefiilpma": "Number_of_Op_Amps",
+    "op srefiilpma": "Number_of_Op_Amps",
+    "op amplifiers": "Number_of_Op_Amps",
+    "op amps": "Number_of_Op_Amps",
+    "op amp": "Number_of_Op_Amps",
     "ptc": "PTC_Channels",
     "peripheral touch controller (ptc)": "Hardware_Touch",
     "general purpose i/o pins (input/output(2))": "IO_Pins_Max",  # AVR EB
@@ -155,6 +161,22 @@ RAW_TO_CANONICAL = {
     "channels ctmu": "CTMU_Channels",  # PIC24
     "ctmu channels": "CTMU_Channels",
     "umtc": "CTMU_Channels",  # dsPIC reversed CTMU
+    # dsPIC ADC channel headers (observed in failure cases)
+    "inputs adc": "ADC_Channels",
+    "adc inputs": "ADC_Channels",
+    "channels adc": "ADC_Channels",
+    "adc channels": "ADC_Channels",
+    "channels) (external adc 12-bit": "ADC_Channels",  # dsPIC33CK
+    "12-bit adc (external channels)": "ADC_Channels",
+    "inputs) golana (external adcs": "ADC_Channels",  # dsPIC33AK partially-reversed "Analog Inputs"
+    "external adcs analog inputs": "ADC_Channels",
+    "external adc inputs": "ADC_Channels",
+    # dsPIC DAC headers (observed)
+    "dacs 12-bit": "Number_of_DACs",
+    "12-bit dacs": "Number_of_DACs",
+    "dacs with comparators": "Number_of_DACs",  # dsPIC33AK
+    "outputs dac": "DAC_Outputs",
+    "dac outputs": "DAC_Outputs",
     # dsPIC-specific
     "(kbyte) flash program": "Program_Memory_KB",  # dsPIC reversed )etybK( merged
     ")etybk( flash program": "Program_Memory_KB",  # partial-reversed observed
@@ -211,25 +233,56 @@ def _norm_key(k):
     return k
 
 
-def _parse_size_kb(value):
-    """Parse strings like '16 KB', '7K', '512' (bytes), '2 KB', '1024' to KB number."""
+def _parse_size_kb(value, key_says_kb=False, key_says_bytes=False):
+    """Parse strings like '16 KB', '7K', '512' (bytes), '2 KB', '1024' to KB number.
+
+    key_says_kb: when the source header explicitly named the unit as KB
+        (e.g. 'Flash (KB)'), so a bare number like '256' is 256 KB, not 256 bytes.
+    key_says_bytes: when the header explicitly named the unit as bytes
+        (e.g. 'Program Memory (bytes)'), so a bare number like '32768' is bytes
+        and should be divided.
+    """
     if not value:
         return ""
     v = str(value).strip()
-    # If it has 'KB' or 'K', take the number
+
+    # Slash forms: '256+3' (main + boot Flash) — return the first number
+    m = re.match(r"(\d+(?:\.\d+)?)\s*[+]\s*\d+", v)
+    if m:
+        n = float(m.group(1))
+        return str(int(n) if n == int(n) else round(n, 2))
+
+    # If value has explicit unit, use it
     m = re.search(r"(\d+(?:\.\d+)?)\s*(KB|K)\b", v, re.IGNORECASE)
     if m:
         n = float(m.group(1))
         return str(int(n) if n == int(n) else round(n, 2))
-    # Plain number — could be bytes (then divide) or already KB
+
+    # Plain number — interpretation depends on key context
     m = re.match(r"(\d+(?:\.\d+)?)$", v)
     if m:
         n = float(m.group(1))
-        if n >= 256:  # likely bytes
+        if key_says_kb:
+            return str(int(n) if n == int(n) else round(n, 2))
+        if key_says_bytes:
+            kb = n / 1024
+            return str(int(kb) if kb == int(kb) else round(kb, 2))
+        # No hint: heuristic
+        if n >= 256:
             kb = n / 1024
             return str(int(kb) if kb == int(kb) else round(kb, 2))
         return str(int(n) if n == int(n) else n)
     return v
+
+
+def _parse_aux_from_program(raw_value):
+    """If a 'Program Memory' value is in form 'X+Y' (X main + Y boot), return Y as Aux Flash."""
+    if not raw_value:
+        return None
+    m = re.match(r"\d+\s*[+]\s*(\d+)", str(raw_value).strip())
+    if m:
+        return m.group(1)
+    return None
 
 
 def _parse_int_first(value):
@@ -310,8 +363,10 @@ def vectorize(pdf_path, target_part, max_pages=20):
                 fuzzy = "External_Interrupts"
             elif "windowed watchdog" in key_norm:
                 fuzzy = "Windowed_WDT"
-            elif "12-bit" in key_norm and "adc" in key_norm:
+            elif "12-bit" in key_norm and "adc" in key_norm and "modules" not in key_norm:
                 fuzzy = "ADC_Channels"
+            elif "modules adc" in key_norm or "adc modules" in key_norm:
+                fuzzy = "ADC_Modules"
             elif ("pwm" in key_norm or "mwp" in key_norm) and ("ccp" in key_norm or "pcc" in key_norm):
                 fuzzy = "PIC_PWM_CCP"  # both reversed and forward forms
             elif "8-bit" in key_norm and "16-bit" in key_norm and "timer" in key_norm:
@@ -324,8 +379,24 @@ def vectorize(pdf_path, target_part, max_pages=20):
             continue
 
         raw_value = (raw_val or "").strip()
-        if not raw_value or raw_value in ("-", "—"):
+        if not raw_value:
             continue
+
+        # A dash / underscore in a count-style cell means "none of these for this variant".
+        # We use it later (per-canonical) to set 0 for count fields, so they outrank
+        # features-bullet defaults. For non-count fields we just skip.
+        is_dash = raw_value in ("-", "—", "_", "–")
+
+        # Hints from the source key about the unit
+        key_says_kb = bool(re.search(r"\(\s*K\s*B?\s*\)|\bK\s*B?\b", str(raw_key), re.IGNORECASE)) and \
+                      not re.search(r"\(\s*BYTES?\s*\)", str(raw_key), re.IGNORECASE)
+        key_says_bytes = bool(re.search(r"\(\s*BYTES?\s*\)|\bBYTES?\b", str(raw_key), re.IGNORECASE))
+
+        # If the Program-Memory value is in 'X+Y' form, capture Y as Aux Flash.
+        if any(c == "Program_Memory_KB" for c in canonicals if c):
+            aux = _parse_aux_from_program(raw_value)
+            if aux:
+                fields.setdefault("Auxiliary_Flash_KB", aux)
 
         for canonical in canonicals:
             if canonical is None:
@@ -333,7 +404,7 @@ def vectorize(pdf_path, target_part, max_pages=20):
             value = raw_value
             # Apply value parsers per canonical
             if canonical in ("Program_Memory_KB", "RAM_KB", "Auxiliary_Flash_KB"):
-                value = _parse_size_kb(value)
+                value = _parse_size_kb(value, key_says_kb=key_says_kb, key_says_bytes=key_says_bytes)
             elif canonical == "EEPROM_bytes":
                 value = re.sub(r"\s*B\b", "", value).strip()
             elif canonical in ("ADC_Channels", "Number_of_Comparators", "Number_of_DACs",
@@ -343,7 +414,12 @@ def vectorize(pdf_path, target_part, max_pages=20):
                                "USB_Modules", "I2C", "SPI", "USART", "CCP",
                                "External_Interrupts", "IOC_Pins", "DAC_Outputs",
                                "Timers_16bit", "DMA_Channels", "CTMU_Channels"):
-                value = _parse_int_first(value)
+                if is_dash:
+                    value = "0"  # explicit absence in the table for THIS variant
+                else:
+                    value = _parse_int_first(value)
+            elif is_dash:
+                continue  # non-count field with a dash — skip
             elif canonical == "PWM_outputs":
                 # PIC24 IC/OC/PWM "3/3" means 3 IC + 3 OC + 3 PWM modules — take the last
                 if "/" in str(value):

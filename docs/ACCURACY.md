@@ -8,9 +8,21 @@ and both are real. Read this before quoting either.
 | Test | Result |
 |---|---|
 | Tuning ground truth (36 parts I'd seen during development) | **744/747 = 99.6%** |
-| Held-out blind validation (30 unseen parts × ~262 cells) | **73.3% per cell** on parts with correct PDF |
+| Held-out blind validation (30 unseen parts × ~262 cells), pre-fix | 73.3% per cell |
+| Held-out blind validation, after parser improvements (current) | **80.0% per cell** on parts with correct PDF |
 | Wrong-PDF rate (catalog-wide grep) | **231/2253 = 10.3%** |
-| Realistic catalog-wide cell accuracy | ~65% |
+| Realistic catalog-wide cell accuracy | ~72% (89.7% × 80.0%) |
+
+**Per-field lifts from parser improvements:**
+
+| Field | Before | After |
+|---|---|---|
+| TempRange_Max | 38% | **88%** |
+| Program_Memory_KB | 50% | **75%** |
+| Number_of_DACs | 53% | **67%** |
+| Number_of_Op_Amps | 73% | **80%** |
+| ADC_Channels | 33% | **67%** |
+| DAC_Outputs | 53% | **60%** |
 
 ## The tuning ground truth (don't quote this)
 

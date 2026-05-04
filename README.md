@@ -58,7 +58,7 @@ python scripts/_null_wrong_pdf_parts.py
 - **2,253 parts** vectorized (out of 2,311 in the source catalog)
 - **2,022 parts (89.7%)** have a correctly-mapped PDF; their outputs are real
 - **231 parts (10.3%)** have no usable datasheet — they're flagged with `wrong_pdf: true` and have empty fields rather than contaminated defaults
-- Per-cell accuracy on correctly-mapped parts: **~73%** (measured by held-out blind verification)
+- Per-cell accuracy on correctly-mapped parts: **~80%** (measured by held-out blind verification)
 - Outputs: [vectorized_all.json](vectorized_all.json), [vectorized_all.csv](vectorized_all.csv) (59 columns)
 
 See [docs/ACCURACY.md](docs/ACCURACY.md) for the full methodology.
