@@ -1,0 +1,136 @@
+[
+  {
+    "part": "PIC24EP256GU810",
+    "pdf": "datasheets\\dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not listed in this datasheet (covers GP/MC families only, not GU). Family features bullet states 'Up to Three Op Amp/Comparators' but specific GU810 part not in tables."},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not listed; no DAC mentioned in features bullets"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not listed; no DAC mentioned"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not in this datasheet (family bullet mentions 'Independent Watchdog Timer (WDT)' but specific part is not in tables)"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not listed in datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not in datasheet; family operating conditions bullet has -40C"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "PIC24EP256GU810 not in datasheet; family operating conditions bullet has +85/+125/+150C"}
+    ]
+  },
+  {
+    "part": "DSPIC33CK32MP502",
+    "pdf": "datasheets\\dsPIC33CK1024MP710-Family-Data-Sheet-DS70005496.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not in this datasheet (Tables 1 and 2 cover MP710/708/706/705 and MP410/408/406/405 only; MP502 is a different family)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not listed; family features bullet states 'Six DAC/Analog Comparator Modules: 12-bit DACs'"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not listed; pin diagram for 48-pin shows DACOUT1, DACOUT2"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not in this datasheet (family Safety Features bullet mentions 'WDT (Watchdog Timer)')"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not listed; family supports 'Flash with Dual Partition for LiveUpdate Capabilities' but no separate aux flash"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not listed (family operating conditions: -40C)"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "DSPIC33CK32MP502 not listed (family operating conditions: +125C/+150C)"}
+    ]
+  },
+  {
+    "part": "PIC24FJ1024GA606",
+    "pdf": "datasheets\\PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not in this datasheet (Table 1 covers GA702/704/705 only with up to 256K Flash, not 1024K GA606)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not listed; family Analog Features only mentions ADC and Comparators (no DAC)"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not listed; no DAC outputs mentioned in this family"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not in this datasheet (family bullet mentions 'Flexible Watchdog Timer (WDT)')"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not listed"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not in this datasheet (family bullet: -40C)"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "PIC24FJ1024GA606 not in this datasheet (family bullet: +125C)"}
+    ]
+  },
+  {
+    "part": "DSPIC33FJ64GP708A",
+    "pdf": "datasheets\\75018c.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP708A not in this datasheet (covers dsPIC33FJ06GS001/101A/102A/202A and dsPIC33FJ09GS302 only)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP708A not listed; this datasheet describes parts with 'Independent 10-bit DAC for each comparator' but not for GP708A"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP708A not listed in this datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP708A not in this datasheet (family features bullet mentions 'Independent Watchdog Timer (WDT)')"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP708A not listed"}
+    ]
+  },
+  {
+    "part": "PIC32MX170F256D",
+    "pdf": "datasheets\\PIC32MX1XX2XX283644-PIN_Datasheet_DS60001168L.pdf",
+    "findings": [
+      {"field": "Pincount", "value": "44", "confidence": "high", "source": "Table 1 row PIC32MX170F256D: Pins=44, Packages=VTLA,TQFP,QFN. Suffix 'D' = 44-pin per Packages table page 1."},
+      {"field": "IO_Pins_Max", "value": "35", "confidence": "high", "source": "Table 1 row PIC32MX170F256D: I/O Pins=35"},
+      {"field": "I2C", "value": "2", "confidence": "high", "source": "Table 1 row PIC32MX170F256D: I2C=2; also features bullet 'Two I2C modules'"},
+      {"field": "USART", "value": "2", "confidence": "high", "source": "Table 1 row PIC32MX170F256D: UART=2; features bullet 'Two UART modules'"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "No Op Amps mentioned anywhere in features or tables"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "No DAC modules mentioned in this datasheet (Advanced Analog Features only lists ADC, CTMU, Comparators)"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "No DAC outputs - no DAC in this family"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Table 1 row PIC32MX170F256D: RTCC=Y; features bullet 'Real-Time Clock and Calendar (RTCC) module'"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Features bullet 'Independent Watchdog Timer'"},
+      {"field": "CPU_Speed_Max_MHz", "value": "50", "confidence": "high", "source": "Operating Conditions: 'DC to 50 MHz'; Core: '50 MHz/83 DMIPS MIPS32 M4K'"},
+      {"field": "Auxiliary_Flash_KB", "value": "3", "confidence": "high", "source": "Table 1 row shows Program Memory '256+3' KB; Note 1: 'This device features 3 KB of boot Flash memory'"}
+    ]
+  },
+  {
+    "part": "ATSAM4LS2B",
+    "pdf": "datasheets\\Atmel-11100-32-bitCortex-M4-Microcontroller-SAM4S_Datasheet.pdf",
+    "findings": [
+      {"field": "EEPROM_bytes", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B is a SAM4L part, NOT covered in this SAM4S datasheet. Configuration Summary tables cover SAM4SD32/SD16/SA16/S16/S8/S4/S2 only. No EEPROM mentioned for SAM4S family."},
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B not in this SAM4S datasheet"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B not in this SAM4S datasheet (SAM4S family has 'One 2-channel 12-bit 1Msps DAC' but this is for SAM4S not SAM4L)"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B not in this SAM4S datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B not in this datasheet (SAM4S family includes RTC)"},
+      {"field": "CPU_Speed_Max_MHz", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B not in this datasheet (SAM4S = up to 120 MHz)"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATSAM4LS2B not in this datasheet"}
+    ]
+  },
+  {
+    "part": "PIC32MZ1025DAL169",
+    "pdf": "datasheets\\PIC32MZ-Graphics-_28DAK-DAL-DAR-DAS_29-Family-Datasheet-DS60001565D.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "No Op Amps mentioned in features or tables; Advanced Analog Features only lists ADC, Comparators, Temp Sensor, CTMU"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "No DAC modules mentioned in this datasheet"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "No DAC outputs - no DAC in this family"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Features bullet 'Real-Time Clock and Calendar (RTCC) module'; Table 1: RTCC=Y"},
+      {"field": "CPU_Speed_Max_MHz", "value": "200", "confidence": "high", "source": "Operating Conditions: 'DC to 200 MHz'; Core: '200 MHz/330 DMIPS MIPS32 microAptiv'"},
+      {"field": "Auxiliary_Flash_KB", "value": "256", "confidence": "high", "source": "Table 2 (169-pin) row PIC32MZ1025DAL169: Boot Flash Memory (KB) = 256"}
+    ]
+  },
+  {
+    "part": "ATMEGA16A",
+    "pdf": "datasheets\\ATmega808-09-1608-09-DataSheet-DS40002172C.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (covers ATmega808/809/1608/1609 only - megaAVR 0-series). ATMEGA16A is a different older AVR family."},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (Peripheral Overview shows DAC outputs = '-' for these megaAVR 0-series parts)"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (the megaAVR 0-series parts have RTC but this is not ATMEGA16A)"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (megaAVR 0-series parts have Window Watchdog)"},
+      {"field": "CPU_Speed_Max_MHz", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (megaAVR 0-series = 20 MHz)"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (megaAVR 0-series: -40C)"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "ATMEGA16A not in this datasheet (megaAVR 0-series: +85/+125C)"}
+    ]
+  },
+  {
+    "part": "DSPIC33FJ64GP802",
+    "pdf": "datasheets\\70000652f.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not in this datasheet (covers dsPIC33FJ16(GP/MC)101/102 and dsPIC33FJ32(GP/MC)101/102/104 only - up to 32K Flash)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not listed; this family has no DAC mentioned"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not in this datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not in this datasheet (family features mention 'Independent Watchdog Timer (WDT)')"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not listed"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not in this datasheet (family operating: -40C)"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "DSPIC33FJ64GP802 not in this datasheet (family operating: +125/+150C)"}
+    ]
+  },
+  {
+    "part": "ATTINY406",
+    "pdf": "datasheets\\8127_125.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet (this is ATtiny4/5/9/10 Appendix A - Specification at 125C)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet (ATtiny4/5/9/10 has only Analog Comparator + ADC, no DAC)"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet (ATtiny4/5/9/10 has WDT mentioned in DC characteristics)"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet (ATtiny4/5/9/10 spec: -40C)"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "ATTINY406 not in this datasheet (ATtiny4/5/9/10 spec: +125C)"}
+    ]
+  }
+]

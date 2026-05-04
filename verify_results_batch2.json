@@ -1,0 +1,162 @@
+[
+  {
+    "part": "DSPIC33AK512MC506",
+    "pdf": "datasheets\\dsPIC33AK512MPS512-Family-Data-Sheet-DS70005591.pdf",
+    "findings": [
+      {"field": "Pincount", "value": "64", "confidence": "high", "source": "Table 2 dsPIC33AK512MC510 Family Device Features (page 9): row dsPIC33AK512MC506 - Pins=64, Packages VQFN/TQFP"},
+      {"field": "I2C", "value": "3", "confidence": "high", "source": "Table 2 (page 9) MC506 row I2C=3; also page 4 features bullet: 'Three I2C Modules'"},
+      {"field": "SPI", "value": "4", "confidence": "high", "source": "Table 2 (page 9) MC506 row SPI=4; also page 4 features: 'Four 4-Wire SPI Modules'"},
+      {"field": "USART", "value": "3", "confidence": "high", "source": "Table 2 (page 9) MC506 row UART=3; also page 4 features: 'Three Protocol UARTs'"},
+      {"field": "ADC_Channels", "value": "23", "confidence": "high", "source": "Table 2 (page 9) MC506 row ADC External Analog Inputs=23"},
+      {"field": "Number_of_Op_Amps", "value": "3", "confidence": "high", "source": "Table 2 (page 9) MC506 row Op Amplifiers=3; also page 5 features: 'Three Rail-to-Rail 100 MHz Operational Amplifiers'"},
+      {"field": "Number_of_DACs", "value": "4", "confidence": "medium", "source": "Table 2 (page 9) MC506 row 'DACs with Comparators'=4 (MC family); page 5 features state 'Up to Eight 5 nS Analog Comparators with 12-Bit PDM DACs'"},
+      {"field": "DAC_Outputs", "value": "2", "confidence": "high", "source": "Table 2 (page 9) MC506 row DAC Outputs=2; page 5: 'Up to two DAC output buffers'"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Page 5 Safety Features: 'Windowed Watchdog Timer (WDT)'"},
+      {"field": "CPU_Speed_Max_MHz", "value": "200", "confidence": "high", "source": "Page 1 Operating Conditions: 'DC to 200 MHz'"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "medium", "source": "Memory Features list (page 1) describes only 'Up to 512 Kbytes of Program Flash Memory'; no separate auxiliary/data Flash mentioned for MC family"},
+      {"field": "CCL_LUTs", "value": "10", "confidence": "high", "source": "Table 2 (page 9) MC506 row CLC=10; also page 4 Peripheral Features: 'Ten Configurable Logic Cells (CLC)'"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Page 1 Operating Conditions: '-40C to +85C / +125C / +150C'"},
+      {"field": "TempRange_Max", "value": "150", "confidence": "high", "source": "Page 1 Operating Conditions: '3.0V to 3.6V: -40C to +150C, DC to 200 MHz'; page 6 Qualification AEC-Q100 Grade 0 -40 to +150"}
+    ]
+  },
+  {
+    "part": "PIC32MZ0512EFE100",
+    "pdf": "datasheets\\PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "findings": [
+      {"field": "Program_Memory_KB", "value": "512", "confidence": "high", "source": "Table 1 (page 2): PIC32MZ0512EFE100 row, Program Memory=512 KB"},
+      {"field": "Pincount", "value": "100", "confidence": "high", "source": "Table 1 (page 2): 100-pin row for PIC32MZ0512EFE100; Pin Tables 3 and 4 list 100-pin TQFP and TFBGA"},
+      {"field": "IO_Pins_Max", "value": "78", "confidence": "high", "source": "Table 1 (page 2) shared 100-pin row: I/O Pins=78; also Packages table page 1: '100-pin TQFP/TFBGA: 78 I/O Pins'"},
+      {"field": "I2C", "value": "5", "confidence": "high", "source": "Table 1 (page 2) shared 100-pin row: I2C=5; also page 1 features: 'Five I2C modules'"},
+      {"field": "USART", "value": "6", "confidence": "high", "source": "Table 1 (page 2) shared 100-pin row: UART=6; page 1 features: 'Six UART modules'"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "medium", "source": "No Op Amp peripheral mentioned in Features (page 1) or Table 1"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "medium", "source": "Page 1 Advanced Analog states only '12-bit ADC' and 'Two comparators with 32 programmable voltage references' (CVREF); no DAC peripheral listed"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "medium", "source": "No DAC outputs listed in features or family table"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Table 1 (page 2) RTCC=Y for 100-pin; page 1 Timers section: 'Real-Time Clock and Calendar (RTCC) module'"},
+      {"field": "CPU_Speed_Max_MHz", "value": "252", "confidence": "high", "source": "Page 1 Operating Conditions: '2.1V to 3.6V, -40C to +85C, DC to 252 MHz'; Core: 252 MHz"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "high", "source": "Table 1 (page 2): PIC32MZ0512EFE100 specific row 'PIC32MZ0512EFE100 0 N Y 8/12' - Boot Flash Memory=0 KB for the E variant"}
+    ]
+  },
+  {
+    "part": "ATSAM3N0A",
+    "pdf": "datasheets\\Atmel-11011-32-bit-Cortex-M3-Microcontroller-SAM3N_Datasheet.pdf",
+    "findings": [
+      {"field": "Program_Memory_KB", "value": "32", "confidence": "high", "source": "Table 1-1 Configuration Summary (page 3): SAM3N0A Flash=32 Kbytes"},
+      {"field": "RAM_KB", "value": "8", "confidence": "high", "source": "Table 1-1 Configuration Summary (page 3): SAM3N0A SRAM=8 Kbytes"},
+      {"field": "EEPROM_bytes", "value": "0", "confidence": "high", "source": "Page 2 Memories section lists only embedded Flash, embedded SRAM, and 16 KB ROM; no EEPROM peripheral"},
+      {"field": "USART", "value": "1", "confidence": "high", "source": "Table 1-1 Configuration Summary (page 3): SAM3N0A USART column = 1"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "No op amp mentioned in Peripherals or Analog sections (pages 1-8)"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "Table 1-1 Configuration Summary (page 3): SAM3N0A DAC column = '_' (none); SAM3N0A is 48-pin, no DAC"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "Table 1-1 (page 3): SAM3N0A has no DAC; the 64/100-pin variants have 1 DAC channel (10-bit DAC)"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Page 1 Description: 'an RTC'; page 2 features: 'Low-power Real-time Clock (RTC) with calendar and alarm features'; block diagrams page 4-6 show RTC"},
+      {"field": "CPU_Speed_Max_MHz", "value": "48", "confidence": "high", "source": "Page 1 Description: 'maximum speed of 48 MHz'; page 2 Core: 'ARM Cortex-M3 revision 2.0 running at up to 48 MHz'"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "high", "source": "Page 2 Memories: 'From 16 to 256 Kbytes embedded Flash, 128-bit wide access, memory accelerator, single plane' - no aux flash"}
+    ]
+  },
+  {
+    "part": "PIC32MX320F064H",
+    "pdf": "datasheets\\PIC32MX330350370430450470_Datasheet_DS60001185H.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "medium", "source": "Note: PIC32MX320F064H is NOT covered in this datasheet (covers 330/350/370/430/450/470). Closest part is PIC32MX330F064H. Family features (page 1) mention only ADC, comparators, CVREF, CTMU - no Op Amps"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "medium", "source": "PIC32MX320F064H not covered in this datasheet. Family features (page 1) list '32 programmable voltage references' (CVREF) but no DAC peripheral"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "medium", "source": "PIC32MX320F064H not in datasheet. Family features list no DAC outputs"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Page 1 features list 'Real-Time Clock and Calendar (RTCC) module'; Table 1 RTCC=Y for all family devices"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Page 1 Clock Management features: 'Independent Watchdog Timer'"},
+      {"field": "CPU_Speed_Max_MHz", "value": "120", "confidence": "high", "source": "Page 1 Operating Conditions: '0C to +70C (DC to 120 MHz)'; Core: 120 MHz/150 DMIPS MIPS32 M4K"},
+      {"field": "Auxiliary_Flash_KB", "value": "12", "confidence": "high", "source": "Table 1 (page 2) note 1: 'All devices feature 12 KB of Boot Flash memory' - shown as +12 in Program Memory column"}
+    ]
+  },
+  {
+    "part": "ATSAME70Q19",
+    "pdf": "datasheets\\SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527.pdf",
+    "findings": [
+      {"field": "EEPROM_bytes", "value": "0", "confidence": "high", "source": "Pages 1-2 Memories section: only embedded Flash, embedded Multi-port SRAM, TCM, and 16 KB ROM; no EEPROM"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "Pages 1-2 features list AFEC ADC, DAC, ACC analog comparator only; no operational amplifier peripheral"},
+      {"field": "Number_of_DACs", "value": "1", "confidence": "high", "source": "Page 2 Peripherals: 'One 2-channel, 12-bit, 1 Msps-per-channel Digital-to-Analog Controller (DAC)'; Table 1-2 (page 14) ATSAME70Q19 DAC Channels=2 (one DAC module, 2 channels)"},
+      {"field": "DAC_Outputs", "value": "2", "confidence": "high", "source": "Table 1-2 (page 14) ATSAME70Q19: DAC (Channels)=2; page 2 confirms 'One 2-channel, 12-bit DAC'"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Page 1 System: 'RTC with Gregorian calendar mode, waveform generation in low-power modes'; section 27 Real-time Clock (RTC)"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Page 1 System: 'Power-on-Reset (POR), Brown-out Detector (BOD) and Dual Watchdog for safe operation'; sections 24 WDT and 25 RSWDT"},
+      {"field": "CPU_Speed_Max_MHz", "value": "300", "confidence": "high", "source": "Page 1 Core: 'Arm Cortex-M7 running at up to 300 MHz'"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "high", "source": "Page 1 Memories: 'Up to 2048 Kbytes embedded Flash with unique identifier and user signature for user-defined data' - no separate auxiliary/data flash; only one Flash region. ATSAME70Q19 has 512KB Flash per Table 1-2"}
+    ]
+  },
+  {
+    "part": "DSPIC33CH64MP506",
+    "pdf": "datasheets\\dsPIC33CH128MP508-Family-Data-Sheet-DS70005319.pdf",
+    "findings": [
+      {"field": "Program_Memory_KB", "value": "64", "confidence": "high", "source": "Table 2 (page 4) row dsPIC33CH64MP506 Main core: Flash=64K (Secondary core has 24K PRAM, not Flash)"},
+      {"field": "Pincount", "value": "64", "confidence": "high", "source": "Table 2 (page 4) row dsPIC33CH64MP506 Pins=64; pin diagram page 12 shows 64-Pin TQFP/QFN"},
+      {"field": "IO_Pins_Max", "value": "53", "confidence": "high", "source": "Table 2 (page 4) row dsPIC33CH64MP506 Main core GPIO=53"},
+      {"field": "I2C", "value": "3", "confidence": "high", "source": "Table 2 (page 4): Main has 2 I2C, Secondary has 1 I2C, total=3; page 2 features: 'Three I2C Modules: Two for Main, One for Secondary'"},
+      {"field": "USART", "value": "3", "confidence": "high", "source": "Table 2 (page 4): Main UART=2, Secondary UART=1, total=3; page 2 features: 'Three UART Modules: Two for Main core, One for Secondary core'"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "Page 2 Advanced Analog Features list 'Three PGA Modules' but does NOT list operational amplifiers; PGAs are not Op Amps. Main features summary (page 1) does not mention op amps"},
+      {"field": "Number_of_DACs", "value": "4", "confidence": "high", "source": "Table 2 (page 4) dsPIC33CH64MP506: Main '12-Bit DAC/Analog CMP Module'=1, Secondary=3, total=4; also page 2: 'Four DAC/Analog Comparator Modules: One for Main, Three for Secondary'"},
+      {"field": "DAC_Outputs", "value": "1", "confidence": "high", "source": "Table 1 Main and Secondary Core Features (page 3): 'DAC Output Buffer' row Shared=1 (one DAC output buffer shared between cores)"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Page 2 Safety Features: 'WDT (Watchdog Timer)'; Table 1 (page 3) Watchdog Timer: Main=1, Secondary=1"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "medium", "source": "Page 1 lists 'Main Core with 64-128 Kbytes of Program Flash' and 'Secondary Core with 24 Kbytes of Program RAM (PRAM)' - no separate auxiliary Flash; secondary uses RAM not Flash"},
+      {"field": "CCL_LUTs", "value": "8", "confidence": "high", "source": "Table 2 (page 4) row dsPIC33CH64MP506: Main CLC=4, Secondary CLC=4, total=8"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Page 1 Operating Conditions: '-40C to +125C' and '-40C to +150C'"},
+      {"field": "TempRange_Max", "value": "150", "confidence": "high", "source": "Page 1 Operating Conditions: '3V to 3.6V, -40C to +150C: Main Core: DC to 60 MIPS, Secondary Core: DC to 60 MIPS'"}
+    ]
+  },
+  {
+    "part": "DSPIC33EV32GM003",
+    "pdf": "datasheets\\dsPIC33EVXXXGM00X-10X-Family-Data-Sheet-DS70005144H.pdf",
+    "findings": [
+      {"field": "Pincount", "value": "36", "confidence": "high", "source": "Table 1 (page 3) row dsPIC33EV32GM003: Pins=36; pin diagram page 7 shows 36-Pin UQFN"},
+      {"field": "I2C", "value": "1", "confidence": "high", "source": "Table 1 (page 3): I2C column for 003 family rows = 1; also page 2: 'One I2C module (up to 1 Mbaud)'"},
+      {"field": "SPI", "value": "2", "confidence": "high", "source": "Table 1 (page 3): SPI=2 for 003 family rows; also page 2: 'Two SPI modules (15 MHz)'"},
+      {"field": "USART", "value": "2", "confidence": "high", "source": "Table 1 (page 3): UART=2 for 003 family rows; page 2 features: 'Two Enhanced Addressable UART modules'"},
+      {"field": "ADC_Channels", "value": "13", "confidence": "high", "source": "Table 1 (page 3): ADC Inputs column for 003 family rows = 13"},
+      {"field": "Number_of_Op_Amps", "value": "3", "confidence": "high", "source": "Table 1 (page 3): Op Amp/Comparators=3/4 for 003 row, meaning 3 Op Amps and 4 Comparators; page 1 features: 'Up to Four Op Amp/Comparators with Direct Connection to the ADC module'"},
+      {"field": "Number_of_DACs", "value": "1", "confidence": "medium", "source": "Page 1 Analog features: 'Additional dedicated comparator and 7-bit Digital-to-Analog Converter (DAC)' - one 7-bit DAC for comparator references"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "medium", "source": "The 7-bit DAC is internal for comparator reference; no DAC output buffer pin mentioned in features. Pin diagrams do not show DACOUT pins"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Page 1 Clock Management: 'Independent Watchdog Timer (WDT)' and 'System Windowed Watchdog Timer (DMT)'"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "medium", "source": "Page 1 mentions 'Provides a Boot Flash Segment in addition to the existing General Flash Segment' as part of intermediate security feature - this is a partition of main Flash, not separate auxiliary Flash"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Page 1 Operating Conditions list '-40C to +125C' and '-40C to +150C'"},
+      {"field": "TempRange_Max", "value": "150", "confidence": "high", "source": "Page 1 Operating Conditions: '4.5V to 5.5V, -40C to +150C, DC to 40 MIPS'"}
+    ]
+  },
+  {
+    "part": "ATMEGA325",
+    "pdf": "datasheets\\ATmega3208-09-DataSheet-DS40002174C.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATMEGA325 is NOT covered by this datasheet (datasheet covers ATmega3208/3209 megaAVR 0-series). The ATmega3208/3209 family does not list any operational amplifiers; only an Analog Comparator (AC). For ATMEGA325 specifically, this PDF does not apply"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 Table 2 (page 3) shows DAC (outputs) = '-' (none) for all family members"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 has no DAC outputs"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 has Real-Time Counter (RTC) module"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 has Window Watchdog Timer (WDT)"},
+      {"field": "CPU_Speed_Max_MHz", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 max frequency is 20 MHz per Table 2"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 industrial -40C, extended -40C"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "ATMEGA325 not in this datasheet. ATmega3208/3209 industrial +85C, extended +125C"}
+    ]
+  },
+  {
+    "part": "ATSAMA5D24",
+    "pdf": "datasheets\\SAMA5D2-Series-Datasheet-ds60001476.pdf",
+    "findings": [
+      {"field": "EEPROM_bytes", "value": "0", "confidence": "high", "source": "Pages 1-3 Memory Architecture and Peripherals lists only L1/L2 cache, internal SRAM, internal ROM, external DDR/QSPI/eMMC; no EEPROM peripheral. SAMA5D2 is an MPU using external memory"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "Pages 1-4 features and block diagram list ADC, ACC analog comparator, but no operational amplifier peripheral"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "Page 3 features list 'One 12-channel, 12-bit, Analog-to-Digital Converter (ADC) with resistive touchscreen capability' and 'One Analog Comparator Controller (ACC)'; no DAC peripheral mentioned. Block diagram (page 7) shows 12-ch 12-bit ADC but no DAC"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "No DAC outputs in features or block diagram"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Page 2 System: 'secure Real-Time Clock (RTC) with clock calibration'"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Page 2 System: 'independent Watchdog Timer (WDT)'; page 3 Safety: 'Independent watchdog'"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "high", "source": "SAMA5D2 has no embedded Flash; it is an MPU using external DDR/QSPI/eMMC/NAND Flash. Internal memory is SRAM and ROM only"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Page 1: 'Selected members of the SAMA5D2 series are qualified for extended industrial temperature range operation (-40C to 105C external temperature)'"},
+      {"field": "TempRange_Max", "value": "105", "confidence": "high", "source": "Page 1: 'extended industrial temperature range operation (-40C to 105C external temperature)'"}
+    ]
+  },
+  {
+    "part": "DSPIC33EP128GS805",
+    "pdf": "datasheets\\dsPIC33EPXXGS202-Family-Data-Sheet-DS70005208E.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 is NOT covered by this datasheet (covers only dsPIC33EP16GS202 and dsPIC33EP32GS202 - 28-pin parts with 16K/32K Flash). The 805 (80-pin, 128K) part is in a different datasheet. The 202 family has 0 op amps (only PGAs and comparators)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 not in this datasheet. The GS202 family has 'Dedicated 12-bit DAC for each analog comparator' (=2 DACs) per page 1, but the 805 variant cannot be verified from this PDF"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 not in this datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 not in this datasheet. The GS202 family has 'Independent Watchdog Timer (WDT)' per page 1"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 not in this datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 not in this datasheet. The GS202 family operating conditions: -40C to +85C and -40C to +125C per page 1"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "dsPIC33EP128GS805 not in this datasheet"}
+    ]
+  }
+]

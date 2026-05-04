@@ -1,0 +1,150 @@
+[
+  {
+    "part": "ATXMEGA32A4U",
+    "pdf": "datasheets\\Atmel-42005-8-and-16-bit-AVR-Microcontrollers-XMEGA-E_Manual.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATXMEGA32A4U is XMEGA A4U (A-series), not XMEGA E. This datasheet is XMEGA E manual covering only XMEGA E-series devices; ATXMEGA32A4U not listed in feature summary table on page 5"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATXMEGA32A4U not in this XMEGA E manual datasheet"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATXMEGA32A4U not in this XMEGA E manual datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATXMEGA32A4U not in this XMEGA E manual datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "ATXMEGA32A4U not in this XMEGA E manual datasheet"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATXMEGA32A4U not in this XMEGA E manual datasheet"}
+    ]
+  },
+  {
+    "part": "ATSAMC20J18A",
+    "pdf": "datasheets\\SAM-C20-C21-Family-Data-Sheet-DS60001479.pdf",
+    "findings": [
+      {"field": "Program_Memory_KB", "value": "256", "confidence": "high", "source": "Table 1-1 SAM C20 Device-specific Features page 14: ATSAMC20J18 Flash=256 KB"},
+      {"field": "RAM_KB", "value": "32", "confidence": "high", "source": "Table 1-1 SAM C20 Device-specific Features page 14: ATSAMC20J18 SRAM=32 KB"},
+      {"field": "EEPROM_bytes", "value": "8192", "confidence": "medium", "source": "Features bullet page 1: '1/2/4/8 KB independent self-programmable Flash for EEPROM emulation'; J18 is 256K Flash variant with 8 KB Flash RWW (Table 1-4 page 16); not hardware EEPROM but Flash for EEPROM emulation"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "Features bullets page 1-3 do not mention op amps; Table 1-4 SAM C20 Family Features (page 16) does not list op amps"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "Features bullet page 2 explicitly states '10-bit, 350 ksps Digital-to-Analog Converter (DAC) in the SAM C21'; SAM C20 family has no DAC. Table 1-4 SAM C20 Family Features (page 16) does not list DAC"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "SAM C20 has no DAC (DAC is C21 only per features page 2)"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Table 1-4 SAM C20 Family Features page 16: Real-Time Counter (RTC) Yes for all C20 variants including C20J. Features bullet page 2: '32-bit Real Time Counter (RTC) with clock/calendar function'"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Table 1-4 SAM C20 Family Features page 16: Watchdog Timer (WDT) Yes for all C20 variants. Features bullet page 2: 'Watchdog Timer (WDT)'"},
+      {"field": "CPU_Speed_Max_MHz", "value": "64", "confidence": "high", "source": "Features page 1: 'Arm Cortex-M0+ CPU running at up to 48 MHz or 64 MHz'; Table 1-4 page 16: 'Maximum CPU frequency 48 / 64 MHz'"},
+      {"field": "Auxiliary_Flash_KB", "value": "8", "confidence": "medium", "source": "Table 1-4 page 16: SAM C20J Flash RWW section 8/4/2/1 KB; for J18 (256K Flash variant) RWW=8 KB. This is the read-while-write Flash for EEPROM emulation"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Features page 1: '-40C to +125C, DC to 48 MHz' and '-40C to +85C, DC to 64 MHz'"},
+      {"field": "TempRange_Max", "value": "125", "confidence": "high", "source": "Features page 1: '-40C to +125C'; AEC-Q100 Grade 1 (-40C to 125C) per Qualification page 2"}
+    ]
+  },
+  {
+    "part": "PIC32CM5164JH01032",
+    "pdf": "datasheets\\PIC32CM-64-32-JH00-Family-Data-Sheet-DS60001880.pdf",
+    "findings": [
+      {"field": "EEPROM_bytes", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 is PIC32CM JH01 family (512K Flash, 64K SRAM); this datasheet covers only PIC32CM JH00 family (32K/64K Flash variants: PIC32CM3204JH00xxx and PIC32CM6408JH00xxx per page 12 table). Part not in datasheet"},
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "CPU_Speed_Max_MHz", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "PIC32CM5164JH01032 not in this JH00 datasheet"}
+    ]
+  },
+  {
+    "part": "ATSAMD51P19A",
+    "pdf": "datasheets\\SAM-D5x-E5x-Family-Data-Sheet-DS60001507.pdf",
+    "findings": [
+      {"field": "EEPROM_bytes", "value": "0", "confidence": "medium", "source": "Features page 1 lists 'EEPROM hardware emulation (SmartEEPROM)' as part of Flash; no dedicated hardware EEPROM. SAM D5x/E5x emulates EEPROM in Flash, not a separate EEPROM peripheral with byte count"},
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "Features pages 1-3 list ADC, DAC, AC (Analog Comparators), Temperature sensors, but no Op Amps; Configuration Summary Table 1-2 page 18 has no Op Amps column"},
+      {"field": "Number_of_DACs", "value": "2", "confidence": "high", "source": "Features page 3: 'Dual 12-bit, 1 MSPS output Digital-to-Analog Converter (DAC)'; Table 1-2 page 18 SAMD51P20 row shows DAC channels = 2 (SAMD51P19 inherits same since blank)"},
+      {"field": "DAC_Outputs", "value": "2", "confidence": "high", "source": "Features page 3: 'Dual 12-bit, 1 MSPS output Digital-to-Analog Converter (DAC)'; Table 1-2 page 18 DAC (Channels) = 2 for SAMD51P20 row"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Features page 3: '32-bit Real Time Counter (RTC) with clock/calendar function'; Table 1-2 page 18 RTC = Y"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Features page 3: 'Watchdog Timer (WDT) with Window mode'; Table 1-2 page 18 WDT = Y"},
+      {"field": "CPU_Speed_Max_MHz", "value": "120", "confidence": "high", "source": "Features page 1: 'Core: 120 MHz Arm Cortex-M4', '1.71V to 3.63V, -40C to +105C, DC to 120 MHz' and 'DC to 120 MHz' at +85C"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "high", "source": "Features page 1 lists single Flash region (1MB/512KB/256KB) with EEPROM emulation; no separate auxiliary/data Flash mentioned. SAMD51P19 has 512 KB Flash only"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Features page 1: '1.71V to 3.63V, -40C to +125C, DC to 100 MHz'"},
+      {"field": "TempRange_Max", "value": "125", "confidence": "high", "source": "Features page 1: '-40C to +125C, DC to 100 MHz'; Qualification page 4: 'AEC-Q100 Grade 1 (-40C to 125C)'"}
+    ]
+  },
+  {
+    "part": "DSPIC30F3014",
+    "pdf": "datasheets\\70139G.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "DSPIC30F3014 not in this datasheet. This datasheet (70139G) covers dsPIC30F2011/2012/3012/3013 only; family table page 4 lists only those four parts"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "DSPIC30F3014 not in this datasheet (covers dsPIC30F2011/2012/3012/3013)"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "DSPIC30F3014 not in this datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "DSPIC30F3014 not in this datasheet (family bullet page 3 mentions WDT but part is not listed)"},
+      {"field": "CPU_Speed_Max_MHz", "value": "", "confidence": "notfound", "source": "DSPIC30F3014 not in this datasheet"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "DSPIC30F3014 not in this datasheet"}
+    ]
+  },
+  {
+    "part": "DSPIC33CK256MC103",
+    "pdf": "datasheets\\dsPIC33CK256MC506-Family-Data-Sheet-DS70005473C.pdf",
+    "findings": [
+      {"field": "Pincount", "value": "36", "confidence": "high", "source": "Table 2 page 6 (Motor Control Families with No CAN FD): dsPIC33CK256MC103 Pins=36 (UQFN package)"},
+      {"field": "I2C", "value": "1", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 I2C=1. Features page 3: 'One I2C module with SMBus Support'"},
+      {"field": "USART", "value": "3", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 UART=3. Features page 3: 'Three Protocol UARTs'"},
+      {"field": "ADC_Channels", "value": "17", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 ADC External Channels=17"},
+      {"field": "Number_of_Comparators", "value": "2", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 Comparators=2. Features page 2: 'Two Analog Comparators'"},
+      {"field": "Number_of_Op_Amps", "value": "3", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 Op Amp=3. Features page 2: 'Up to Three Op Amps'"},
+      {"field": "Number_of_DACs", "value": "2", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 12-bit DACs=2. Features page 2: 'Two 12-Bit DACs'"},
+      {"field": "DAC_Outputs", "value": "1", "confidence": "high", "source": "Features page 2: 'Two 12-Bit DACs: Hardware slope compensation, One buffered DAC output'; pin DACOUT shown on 28-pin pinout"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Features page 3 Safety Features: 'Dual Watchdog Timer (WDT)'. Table 2 page 6 WDT=1"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "medium", "source": "Features page 1: '128-256 Kbytes of Program Flash with ECC and 16-32K Data RAM'; only main Flash plus '384 Bytes of One-Time-Programmable (OTP) Memory'; no separate auxiliary/data Flash"},
+      {"field": "CCL_LUTs", "value": "4", "confidence": "high", "source": "Table 2 page 6: dsPIC33CK256MC103 CLC=4"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Features page 1: '3V to 3.6V, -40C to +125C' and '3V to 3.6V, -40C to +150C'"},
+      {"field": "TempRange_Max", "value": "150", "confidence": "high", "source": "Features page 1: '-40C to +150C, DC to 70 MIPS'; AEC-Q100 Grade 0 (-40C to +150C) per Qualification page 4"}
+    ]
+  },
+  {
+    "part": "ATMEGA640",
+    "pdf": "datasheets\\Atmel-8285-8-bit-AVR-Microcontroller-ATmega165A_PA_325A_PA_3250A_PA_645A_P_6450A_P_datasheet.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet. This datasheet covers ATmega165A/PA/325A/PA/3250A/PA/645A/P/6450A/P only (per title page 1). ATmega640 is a different family (ATmega640/1280/1281/2560/2561)"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "ATMEGA640 not in this datasheet"}
+    ]
+  },
+  {
+    "part": "ATTINY817",
+    "pdf": "datasheets\\ATtiny804-06-07-1604-06-07-DataSheet-DS40002312A.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "", "confidence": "notfound", "source": "ATTINY817 is tinyAVR 1-series (8 KB Flash, has DAC). This datasheet covers ATtiny804/806/807/1604/1606/1607 of tinyAVR 0-series only (page 1 introduction). ATTINY817 not listed"},
+      {"field": "Number_of_DACs", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet (tinyAVR 0-series doesn't include 817)"},
+      {"field": "DAC_Outputs", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet"},
+      {"field": "Hardware_RTC", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet (family bullet has RTC for 0-series but 817 is 1-series)"},
+      {"field": "WDT", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet"},
+      {"field": "CPU_Speed_Max_MHz", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet"},
+      {"field": "Auxiliary_Flash_KB", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet"},
+      {"field": "TempRange_Min", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet"},
+      {"field": "TempRange_Max", "value": "", "confidence": "notfound", "source": "ATTINY817 not in this datasheet"}
+    ]
+  },
+  {
+    "part": "DSPIC33EP512GM604",
+    "pdf": "datasheets\\70000689d.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "4", "confidence": "high", "source": "Table 1 page 2: dsPIC33EP512GM604 Op Amps/Comparators=4/5 (4 op amps). Features page 1: 'Up to Four Op Amp/Comparators'"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "Features pages 1-2 do not mention DAC; Table 1 page 2 has no DAC column. dsPIC33EP GM family has Op Amps and Comparators but no DAC peripheral listed"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "No DAC peripheral on dsPIC33EP512GM604 per Table 1 page 2 and features pages 1-2"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Features page 1: 'Independent Watchdog Timer (WDT)'"},
+      {"field": "Auxiliary_Flash_KB", "value": "0", "confidence": "medium", "source": "Features page 1 lists single Flash 'Up to 24 Kbytes on-chip Flash' (note this is dsPIC30 page); for dsPIC33EP512GM604 page 2 Table 1: Program Flash Memory=512 Kbytes; no separate auxiliary/data Flash mentioned"},
+      {"field": "TempRange_Min", "value": "-40", "confidence": "high", "source": "Features page 1: '3.0V to 3.6V, -40C to +85C, up to 70 MIPS' and '3.0V to 3.6V, -40C to +125C, up to 60 MIPS'"},
+      {"field": "TempRange_Max", "value": "125", "confidence": "high", "source": "Features page 1: '-40C to +125C, up to 60 MIPS'; AEC-Q100 REVG Grade 1 (-40C to +125C) Planned per page 1"}
+    ]
+  },
+  {
+    "part": "PIC32MX675F512H",
+    "pdf": "datasheets\\PIC32MX5XX6XX7XX_Family_29Datasheet_DS60001156K.pdf",
+    "findings": [
+      {"field": "Number_of_Op_Amps", "value": "0", "confidence": "high", "source": "Features pages 1-2 list ADC and Comparators only; no Op Amps in Analog Features section. Table 2 page 3 (PIC32MX6XX) for PIC32MX675F512H has no Op Amp column"},
+      {"field": "Number_of_DACs", "value": "0", "confidence": "high", "source": "Features pages 1-2 Analog Features list only ADC and Comparators; no DAC peripheral. Table 2 page 3 has no DAC column"},
+      {"field": "DAC_Outputs", "value": "0", "confidence": "high", "source": "No DAC peripheral on PIC32MX675F512H per Table 2 page 3 and features"},
+      {"field": "Hardware_RTC", "value": "Yes", "confidence": "high", "source": "Features page 1: 'Real-Time Clock and Calendar (RTCC) module'"},
+      {"field": "WDT", "value": "Yes", "confidence": "high", "source": "Features page 1: 'Independent Watchdog Timer'"},
+      {"field": "CPU_Speed_Max_MHz", "value": "80", "confidence": "high", "source": "Features page 1: 'Core: 80 MHz/105 DMIPS MIPS32 M4K' and '2.3V to 3.6V, -40C to +105C, DC to 80 MHz'"},
+      {"field": "Auxiliary_Flash_KB", "value": "12", "confidence": "high", "source": "Table 2 page 3 PIC32MX675F512H: Program Memory = '512 + 12(1)' KB; Note 1: 'This device features 12 KB boot Flash memory'. The 12 KB boot Flash is separate from the 512 KB main program Flash"}
+    ]
+  }
+]

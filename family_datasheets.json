@@ -1,0 +1,2924 @@
+{
+  "DSPIC33CK_MP": {
+    "representative": "DSPIC33CK512MP706",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33CK1024MP710-Family-Data-Sheet-DS70005496.pdf",
+    "ds_number": "DS70005496",
+    "n_parts": 80
+  },
+  "AT32UC": {
+    "representative": "AT32UC3L064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/doc32000.pdf",
+    "ds_number": null,
+    "n_parts": 46
+  },
+  "ATSAM4": {
+    "representative": "ATSAM4S2A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-11100-32-bitCortex-M4-Microcontroller-SAM4S_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 43
+  },
+  "ATSAM3": {
+    "representative": "ATSAM3N00A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11011-32-bit-Cortex-M3-Microcontroller-SAM3N_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 33
+  },
+  "DSPIC33EP_MC": {
+    "representative": "DSPIC33EP32MC202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 32
+  },
+  "DSPIC33CH_MP": {
+    "representative": "DSPIC33CH64MP202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33CH128MP508-Family-Data-Sheet-DS70005319.pdf",
+    "ds_number": null,
+    "n_parts": 32
+  },
+  "DSPIC33EV_GM": {
+    "representative": "DSPIC33EV32GM002",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/dsPIC33EVXXXGM00X-10X-Family-Data-Sheet-DS70005144H.pdf",
+    "ds_number": null,
+    "n_parts": 32
+  },
+  "DSPIC33FJ": {
+    "representative": "DSPIC33FJ06GS101A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/75018c.pdf",
+    "ds_number": "DS75018C",
+    "n_parts": 30
+  },
+  "ATMEGA3xxx": {
+    "representative": "ATMEGA3208",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega3208-09-DataSheet-DS40002174C.pdf",
+    "ds_number": null,
+    "n_parts": 29
+  },
+  "ATSAMA5": {
+    "representative": "ATSAMA5D29-TA100",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ProductDocuments/DataSheets/SAMA5D2-Series-Datasheet-ds60001476.pdf",
+    "ds_number": null,
+    "n_parts": 28
+  },
+  "ATMEGA1xxx": {
+    "representative": "ATMEGA1608",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega808-09-1608-09-DataSheet-DS40002172C.pdf",
+    "ds_number": null,
+    "n_parts": 28
+  },
+  "DSPIC33EP_GS": {
+    "representative": "DSPIC33EP16GS202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/dsPIC33EPXXGS202-Family-Data-Sheet-DS70005208E.pdf",
+    "ds_number": "DS70005208E",
+    "n_parts": 28
+  },
+  "PIC32CM_JH": {
+    "representative": "PIC32CM3204JH00032",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-64-32-JH00-Family-Data-Sheet-DS60001880.pdf",
+    "ds_number": null,
+    "n_parts": 24
+  },
+  "AT91SAM": {
+    "representative": "AT91SAM9CN11",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/ARM_926EJS_TRM.pdf",
+    "ds_number": null,
+    "n_parts": 24
+  },
+  "PIC32MX1xx": {
+    "representative": "PIC32MX110F016B",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX1XX2XX283644-PIN_Datasheet_DS60001168L.pdf",
+    "ds_number": null,
+    "n_parts": 23
+  },
+  "DSPIC33CK_MC": {
+    "representative": "DSPIC33CK256MC102",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33CK256MC506-Family-Data-Sheet-DS70005473C.pdf",
+    "ds_number": null,
+    "n_parts": 22
+  },
+  "PIC32MX2xx": {
+    "representative": "PIC32MX210F016B",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX1XX2XX283644-PIN_Datasheet_DS60001168L.pdf",
+    "ds_number": null,
+    "n_parts": 22
+  },
+  "ATTINY4xxx": {
+    "representative": "ATTINY4",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/8127_125.pdf",
+    "ds_number": null,
+    "n_parts": 21
+  },
+  "ATMEGA6xxx": {
+    "representative": "ATMEGA6450A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-8285-8-bit-AVR-Microcontroller-ATmega165A_PA_325A_PA_3250A_PA_645A_P_6450A_P_datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 21
+  },
+  "DSPIC33AK_MPS": {
+    "representative": "DSPIC33AK256MPS205",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33AK512MPS512-Family-Data-Sheet-DS70005591.pdf",
+    "ds_number": null,
+    "n_parts": 20
+  },
+  "DSPIC33FJ_MC": {
+    "representative": "DSPIC33FJ16MC101",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70000652f.pdf",
+    "ds_number": null,
+    "n_parts": 20
+  },
+  "DSPIC33FJ_GP": {
+    "representative": "DSPIC33FJ16GP101",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70000652f.pdf",
+    "ds_number": null,
+    "n_parts": 20
+  },
+  "DSPIC30F": {
+    "representative": "DSPIC30F2011",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70139G.pdf",
+    "ds_number": null,
+    "n_parts": 19
+  },
+  "ATTINY8xxx": {
+    "representative": "ATTINY804",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny804-06-07-1604-06-07-DataSheet-DS40002312A.pdf",
+    "ds_number": null,
+    "n_parts": 18
+  },
+  "AT89C": {
+    "representative": "AT89C2051",
+    "datasheet_url": null,
+    "ds_number": null,
+    "n_parts": 18
+  },
+  "ATXMEGA1xx": {
+    "representative": "ATXMEGA16E5",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42005-8-and-16-bit-AVR-Microcontrollers-XMEGA-E_Manual.pdf",
+    "ds_number": null,
+    "n_parts": 18
+  },
+  "PIC32MX3xx": {
+    "representative": "PIC32MX330F064H",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX330350370430450470_Datasheet_DS60001185H.pdf",
+    "ds_number": null,
+    "n_parts": 18
+  },
+  "DSPIC33EP_GM": {
+    "representative": "DSPIC33EP512GM604",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/70000689d.pdf",
+    "ds_number": "DS70000689D",
+    "n_parts": 18
+  },
+  "AT89LP": {
+    "representative": "AT89LP828",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/doc3654A.pdf",
+    "ds_number": null,
+    "n_parts": 17
+  },
+  "ATSAMD21": {
+    "representative": "ATSAMD21E15",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D21-DA1-Family-Data-Sheet-DS40001882.pdf",
+    "ds_number": null,
+    "n_parts": 17
+  },
+  "DSPIC33EP_GP": {
+    "representative": "DSPIC33EP32GP502",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 17
+  },
+  "DSPIC33FJ_GS": {
+    "representative": "DSPIC33FJ06GS001",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/75018c.pdf",
+    "ds_number": "DS75018C",
+    "n_parts": 17
+  },
+  "DSPIC33AK_MC": {
+    "representative": "DSPIC33AK256MC205",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33AK512MPS512-Family-Data-Sheet-DS70005591.pdf",
+    "ds_number": null,
+    "n_parts": 16
+  },
+  "ATTINY1xxx": {
+    "representative": "ATTINY10",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/8127_125.pdf",
+    "ds_number": null,
+    "n_parts": 16
+  },
+  "PIC16F180xx": {
+    "representative": "PIC16F18013",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F18013-14-23-24-Microcontroller-Data-Sheet-DS40002539.pdf",
+    "ds_number": null,
+    "n_parts": 16
+  },
+  "PIC18F_K22": {
+    "representative": "PIC18F13K22",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001365F.pdf",
+    "ds_number": null,
+    "n_parts": 16
+  },
+  "PIC18F_J11": {
+    "representative": "PIC18F24J11",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39932D.pdf",
+    "ds_number": "DS39932D",
+    "n_parts": 16
+  },
+  "PIC32MX5xx": {
+    "representative": "PIC32MX530F128H",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX1XX2XX5XX64100-PIN_Family_60001290F.pdf",
+    "ds_number": null,
+    "n_parts": 16
+  },
+  "ATSAMD20": {
+    "representative": "ATSAMD20E14",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D20-Family-Data-Sheet-DS60001504.pdf",
+    "ds_number": null,
+    "n_parts": 15
+  },
+  "PIC32MX4xx": {
+    "representative": "PIC32MX430F064H",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX330350370430450470_Datasheet_DS60001185H.pdf",
+    "ds_number": null,
+    "n_parts": 15
+  },
+  "PIC16F181xx": {
+    "representative": "PIC16F18174",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F18154-55-74-75-Microcontroller-Data-Sheet-DS40002491.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "PIC16F171xx": {
+    "representative": "PIC16F17174",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F17154-55-74-75-Microcontroller-Data-Sheet-DS40002490.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "PIC32CZ_CA": {
+    "representative": "PIC32CZ2051CA70100",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CZ-CA70-MC70-Family-Data-Sheet-DS60001825.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "SAM9": {
+    "representative": "SAM9X75D5M",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ProductDocuments/DataSheets/SAM9X75-SIP-Series-Data-Sheet-DS60001827.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "ATTINY2xxx": {
+    "representative": "ATTINY28",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/1062S.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "PIC16F152xx": {
+    "representative": "PIC16F15213",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F15213-14-23-24-43-44-Microcontroller-Data-Sheet-40002195.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "ATSAMC21": {
+    "representative": "ATSAMC21E15A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-C20-C21-Family-Data-Sheet-DS60001479.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "ATSAMC20": {
+    "representative": "ATSAMC20E15A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-C20-C21-Family-Data-Sheet-DS60001479.pdf",
+    "ds_number": null,
+    "n_parts": 14
+  },
+  "PIC16F153xx": {
+    "representative": "PIC16F15313",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16_L_F15313_23_Data_Sheet_40001897C.pdf",
+    "ds_number": null,
+    "n_parts": 13
+  },
+  "PIC16F175xx": {
+    "representative": "PIC16F17524",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F17524-25-44-45-Microcontroller-Data-Sheet-DS40002641.pdf",
+    "ds_number": null,
+    "n_parts": 12
+  },
+  "AVR_DD": {
+    "representative": "AVR16DD14",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR32-16DD20-14-Complete-DataSheet-DS40002413.pdf",
+    "ds_number": null,
+    "n_parts": 12
+  },
+  "ATMEGA8xxx": {
+    "representative": "ATMEGA808",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega808-09-1608-09-DataSheet-DS40002172C.pdf",
+    "ds_number": null,
+    "n_parts": 12
+  },
+  "PIC32MM_GPM": {
+    "representative": "PIC32MM0064GPM028",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC32MM0256GPM064-Family-Data-Sheet-DS60001387D.pdf",
+    "ds_number": null,
+    "n_parts": 12
+  },
+  "PIC18F_J50": {
+    "representative": "PIC18F24J50",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39931d.pdf",
+    "ds_number": "DS39931D",
+    "n_parts": 12
+  },
+  "AVR_DA": {
+    "representative": "AVR32DA28",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR32DA28-32-48-Data-Sheet-40002228B.pdf",
+    "ds_number": null,
+    "n_parts": 11
+  },
+  "AVR_DB": {
+    "representative": "AVR32DB28",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR32DB28-32-48-DataSheet-DS40002301A.pdf",
+    "ds_number": null,
+    "n_parts": 11
+  },
+  "AVR_DU": {
+    "representative": "AVR32DU20",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR32-16DU-14-20-28-32-Prelim-DataSheet-DS40002576.pdf",
+    "ds_number": null,
+    "n_parts": 10
+  },
+  "ATSAMD": {
+    "representative": "ATSAMDA1E16A",
+    "datasheet_url": null,
+    "ds_number": null,
+    "n_parts": 10
+  },
+  "PIC18F_K40": {
+    "representative": "PIC18F24K40",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18-L-F24-25K40-Microcontroller-Data-Sheet-DS40001843.pdf",
+    "ds_number": "DS40001843",
+    "n_parts": 10
+  },
+  "PIC18F_K42": {
+    "representative": "PIC18F24K42",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18LF24-25K42-Data-Sheet-DS40001869E.pdf",
+    "ds_number": "DS40001869E",
+    "n_parts": 10
+  },
+  "PIC18F_J10": {
+    "representative": "PIC18F24J10",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39682E.pdf",
+    "ds_number": "DS39682E",
+    "n_parts": 10
+  },
+  "ATSAML21": {
+    "representative": "ATSAML21E15B",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-L21-Family-Data-Sheet-DS60001477.pdf",
+    "ds_number": null,
+    "n_parts": 10
+  },
+  "PIC18F_J90": {
+    "representative": "PIC18F63J90",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39770c.pdf",
+    "ds_number": "DS39770C",
+    "n_parts": 10
+  },
+  "PIC32MX6xx": {
+    "representative": "PIC32MX664F064H",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX5XX6XX7XX_Family%29Datasheet_DS60001156K.pdf",
+    "ds_number": null,
+    "n_parts": 10
+  },
+  "PIC32AK_GC": {
+    "representative": "PIC32AK3208GC41036",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC32AK1216GC41064-Family-Data-Sheet-DS70005592.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATMEGA4xxx": {
+    "representative": "ATMEGA48-AUTOMOTIVE",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7530-Automotive-Microcontrollers-ATmega48-ATmega88-ATmega168_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "PIC16F131xx": {
+    "representative": "PIC16F13113",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F13145-Family-Microcontroller-Data-Sheet-DS40002519.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "AVR_EA": {
+    "representative": "AVR16EA28",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR16EA28-32-48-DataSheet-DS40002498.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "PIC18F_Q71": {
+    "representative": "PIC18F24Q71",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F24-25Q71-Microcontroller-Data-Sheet-DS40002350.pdf",
+    "ds_number": "DS40002350",
+    "n_parts": 9
+  },
+  "PIC18F_Q43": {
+    "representative": "PIC18F25Q43",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F25-45-55Q43-Microcontroller-Data-Sheet-XLP-DS40002170.pdf",
+    "ds_number": "DS40002170",
+    "n_parts": 9
+  },
+  "PIC32MM_GPL": {
+    "representative": "PIC32MM0016GPL020",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC32MM0064GPL036-Family-Data-Sheet-DS60001324C.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "PIC16F191xx": {
+    "representative": "PIC16F19155",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF19155-56-75-76-85-86-Data-Sheet-40001923B.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "PIC32CM_LS": {
+    "representative": "PIC32CM2532LS00048",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-LE00-LS00-LS60-Family-Data-Sheet-DS60001615.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATXMEGA3xx": {
+    "representative": "ATXMEGA32E5",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42005-8-and-16-bit-AVR-Microcontrollers-XMEGA-E_Manual.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATSAML22": {
+    "representative": "ATSAML22G16A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-L22-Family-Data-Sheet-DS60001465.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "PIC18F_J94": {
+    "representative": "PIC18F65J94",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30000575C.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATXMEGA6xx": {
+    "representative": "ATXMEGA64D4",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-8210-8-and-16-bit-AVR-Microcontrollers-XMEGA-D_Manual.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATSAMD51": {
+    "representative": "ATSAMD51G18A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D5x-E5x-Family-Data-Sheet-DS60001507.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATSAMS70": {
+    "representative": "ATSAMS70J19",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATSAME70": {
+    "representative": "ATSAME70J19",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "ATSAMV71": {
+    "representative": "ATSAMV71N20",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527.pdf",
+    "ds_number": null,
+    "n_parts": 9
+  },
+  "PIC32CM_LE": {
+    "representative": "PIC32CM1216LE00048",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-LE00-LS00-LS60-Family-Data-Sheet-DS60001615.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "AVR_EB": {
+    "representative": "AVR16EB14",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR16EB14_20_28_32-Prelim-DataSheet-DS40002522.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC16F183xx": {
+    "representative": "PIC16F18313",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40001799F.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC16F184xx": {
+    "representative": "PIC16F18424",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16-L-F18424-44-Microcontroller-Data-Sheet-DS40002000.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC18F_K20": {
+    "representative": "PIC18F23K20",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001303H.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC32MX7xx": {
+    "representative": "PIC32MX764F128H",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX5XX6XX7XX_Family%29Datasheet_DS60001156K.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC32MZ_DAK": {
+    "representative": "PIC32MZ1025DAK169",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Graphics-%28DAK-DAL-DAR-DAS%29-Family-Datasheet-DS60001565D.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC32MZ_DAL": {
+    "representative": "PIC32MZ1025DAL169",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Graphics-%28DAK-DAL-DAR-DAS%29-Family-Datasheet-DS60001565D.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC32MZ_DAR": {
+    "representative": "PIC32MZ1025DAR169",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Graphics-%28DAK-DAL-DAR-DAS%29-Family-Datasheet-DS60001565D.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC32MZ_DAS": {
+    "representative": "PIC32MZ1025DAS169",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Graphics-%28DAK-DAL-DAR-DAS%29-Family-Datasheet-DS60001565D.pdf",
+    "ds_number": null,
+    "n_parts": 8
+  },
+  "PIC32CX_SG": {
+    "representative": "PIC32CX1025SG41100",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CX-SG41-SG60-SG61-Family-Data-Sheet-DS60001715.pdf",
+    "ds_number": null,
+    "n_parts": 7
+  },
+  "SAMA7": {
+    "representative": "SAMA7D65",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ProductDocuments/DataSheets/SAMA7D6-Series-Data-Sheet-DS60001851.pdf",
+    "ds_number": null,
+    "n_parts": 7
+  },
+  "PIC18F_Q10": {
+    "representative": "PIC18F24Q10",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F24-25-Q10-Data-Sheet-DS40001945.pdf",
+    "ds_number": null,
+    "n_parts": 7
+  },
+  "PIC18F_Q24": {
+    "representative": "PIC18F24Q24",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F24-25Q24-Microcontroller-Data-Sheet-DS40002517.pdf",
+    "ds_number": "DS40002517",
+    "n_parts": 7
+  },
+  "PIC16F72x": {
+    "representative": "PIC16F720",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001430F.pdf",
+    "ds_number": null,
+    "n_parts": 7
+  },
+  "PIC16F188xx": {
+    "representative": "PIC16F18854",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16%28L%29F18854-Data-Sheet-40001826E.pdf",
+    "ds_number": null,
+    "n_parts": 7
+  },
+  "AT90PWM": {
+    "representative": "AT90PWM1",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/4378S.pdf",
+    "ds_number": null,
+    "n_parts": 7
+  },
+  "PIC32CM_GV": {
+    "representative": "PIC32CM1602GV00032",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-16-32-GV00-Family-Data-Sheet-DS60001881.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC18F_Q20": {
+    "representative": "PIC18F14Q20",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F04-05-14-15Q20-Microcontroller-Data-Sheet-DS40002570.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC18F_Q40": {
+    "representative": "PIC18F04Q40",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F04-05-14-15Q40-Microcontroller-Data-Sheet-DS40002236.pdf",
+    "ds_number": "DS40002236",
+    "n_parts": 6
+  },
+  "PIC18F_Q41": {
+    "representative": "PIC18F04Q41",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F04-05-14-15Q41-Microcontroller-Data-Sheet-DS40002242.pdf",
+    "ds_number": "DS40002242",
+    "n_parts": 6
+  },
+  "PIC18F_Q84": {
+    "representative": "PIC18F26Q84",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F26-46-56Q84-Data-Sheet-DS40002259.pdf",
+    "ds_number": "DS40002259",
+    "n_parts": 6
+  },
+  "ATSAML10": {
+    "representative": "ATSAML10D14A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-L10-L11-Family-Data-Sheet-DS60001513.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "ATSAML11": {
+    "representative": "ATSAML11D14A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-L10-L11-Family-Data-Sheet-DS60001513.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "AT90USB": {
+    "representative": "AT90USB82",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc7707.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC18F_K80": {
+    "representative": "PIC18F25K80",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F66K80FAMILYEnhancedFlashMCUwithECANXLPTechnology30009977G.pdf",
+    "ds_number": "DS30009977G",
+    "n_parts": 6
+  },
+  "PIC32CK_GC": {
+    "representative": "PIC32CK1025GC01064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CK-SG01-SG00-GC01-GC00-Family-Data-Sheet-DS60001795.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32CK_SG": {
+    "representative": "PIC32CK2051SG01064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CK-SG01-SG00-GC01-GC00-Family-Data-Sheet-DS60001795.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC18F_K90": {
+    "representative": "PIC18F65K90",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39957d.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "ATSAME51": {
+    "representative": "ATSAME51J18A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D5x-E5x-Family-Data-Sheet-DS60001507.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC18F_J60": {
+    "representative": "PIC18F66J60",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39762f.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC24HJ128xx": {
+    "representative": "PIC24HJ128GP206A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70592d.pdf",
+    "ds_number": "DS70592D",
+    "n_parts": 6
+  },
+  "ATXMEGA2xx": {
+    "representative": "ATXMEGA256C3",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-8465-8-and-16-bit-AVR-Microcontrollers-XMEGA-C_Manual.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "ATSAMV70": {
+    "representative": "ATSAMV70J19",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32MZ_EFE": {
+    "representative": "PIC32MZ0512EFE064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32MZ_EFF": {
+    "representative": "PIC32MZ0512EFF064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32MZ_EFK": {
+    "representative": "PIC32MZ0512EFK064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32MZ_EFG": {
+    "representative": "PIC32MZ1024EFG064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32MZ_EFH": {
+    "representative": "PIC32MZ1024EFH064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "PIC32MZ_EFM": {
+    "representative": "PIC32MZ1024EFM064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf",
+    "ds_number": null,
+    "n_parts": 6
+  },
+  "AVR_SD": {
+    "representative": "AVR64SD28",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR32SD20-28-32-Data-Sheet-DS40002629.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "AT89S": {
+    "representative": "AT89S4051",
+    "datasheet_url": null,
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "ATTINY3xxx": {
+    "representative": "ATTINY3224",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny3224-3226-3227-Data-Sheet-DS40002345B.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC18F_Q83": {
+    "representative": "PIC18F26Q83",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F26-46-56Q83-Data-Sheet-DS40002253.pdf",
+    "ds_number": "DS40002253",
+    "n_parts": 5
+  },
+  "PIC16F68x": {
+    "representative": "PIC16F684",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40047b.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC16F88x": {
+    "representative": "PIC16F882",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001291H.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC24EP_MC202": {
+    "representative": "PIC24EP32MC202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC24EP_GP202": {
+    "representative": "PIC24EP32GP202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC24EP_MC204": {
+    "representative": "PIC24EP32MC204",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC24EP_GP204": {
+    "representative": "PIC24EP32GP204",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC18F_K50": {
+    "representative": "PIC18F13K50",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41320a.pdf",
+    "ds_number": "DS41320A",
+    "n_parts": 5
+  },
+  "ATSAMG55": {
+    "representative": "ATSAMG55G19A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-11289-32-bit-Cortex-M4-Microcontroller-SAM-G55_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "ATSAME53": {
+    "representative": "ATSAME53J18A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D5x-E5x-Family-Data-Sheet-DS60001507.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "DSPIC33EP_MU": {
+    "representative": "DSPIC33EP256MU806",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70616g.pdf",
+    "ds_number": "DS70616G",
+    "n_parts": 5
+  },
+  "PIC32MZ_DAB": {
+    "representative": "PIC32MZ1025DAB288",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Graphics-%28DAK-DAL-DAR-DAS%29-Family-Datasheet-DS60001565D.pdf",
+    "ds_number": null,
+    "n_parts": 5
+  },
+  "PIC10F20x": {
+    "representative": "PIC10F200",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001239F.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "ATSAMD10": {
+    "representative": "ATSAMD10C13",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42242-SAM-D10_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC16F63x": {
+    "representative": "PIC16F630",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40039F.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC32CM_MC": {
+    "representative": "PIC32CM6408MC00032",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-MC00-Family-Data-Sheet-DS60001638.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA002": {
+    "representative": "PIC24FJ16GA002",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39881e.pdf",
+    "ds_number": "DS39881E",
+    "n_parts": 4
+  },
+  "PIC16F91x": {
+    "representative": "PIC16F913",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41250F.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA004": {
+    "representative": "PIC24FJ32GA004",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39881e.pdf",
+    "ds_number": "DS39881E",
+    "n_parts": 4
+  },
+  "PIC24EP_MC206": {
+    "representative": "PIC24EP64MC206",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24EP_GP206": {
+    "representative": "PIC24EP64GP206",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC18F_J15": {
+    "representative": "PIC18F65J15",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39663f.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24HJ_GP202": {
+    "representative": "PIC24HJ12GP202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70282E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC18F_J13": {
+    "representative": "PIC18F26J13",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009974C.pdf",
+    "ds_number": "DS30009974C",
+    "n_parts": 4
+  },
+  "PIC24FJ_GA106": {
+    "representative": "PIC24FJ64GA106",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC24FJ256GA110-Family-Data-Sheet-DS30009905F.pdf",
+    "ds_number": "DS30009905F",
+    "n_parts": 4
+  },
+  "PIC18F_J53": {
+    "representative": "PIC18F26J53",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F26-45-46-Q10-Data-Sheet-DS40001996.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA606": {
+    "representative": "PIC24FJ128GA606",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC18F_J93": {
+    "representative": "PIC18F66J93",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39933d.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GB606": {
+    "representative": "PIC24FJ128GB606",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA610": {
+    "representative": "PIC24FJ128GA610",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "ATUC6": {
+    "representative": "ATUC64D4",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/doc32000.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GB610": {
+    "representative": "PIC24FJ128GB610",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GB106": {
+    "representative": "PIC24FJ64GB106",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA108": {
+    "representative": "PIC24FJ64GA108",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC32MK_GPG": {
+    "representative": "PIC32MK0256GPG048",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MK-General-Purpose-and-Motor-Control-With-CAN-FD-Family-DataSheet-DS60001570D.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24HJ64xx": {
+    "representative": "PIC24HJ64GP206A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70293G.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC32MK_MCJ": {
+    "representative": "PIC32MK0256MCJ048",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MK-General-Purpose-and-Motor-Control-With-CAN-FD-Family-DataSheet-DS60001570D.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GB108": {
+    "representative": "PIC24FJ64GB108",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "ATUC1": {
+    "representative": "ATUC128D4",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/doc32000.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GB110": {
+    "representative": "PIC24FJ64GB110",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA110": {
+    "representative": "PIC24FJ128GA110",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "ATSAME54": {
+    "representative": "ATSAME54N19A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D5x-E5x-Family-Data-Sheet-DS60001507.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC32MK_GPK": {
+    "representative": "PIC32MK1024GPK064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MK-GPK-MCM-with-CAN-FD-Family-DataSheet-DS60001519E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC32MK_MCM": {
+    "representative": "PIC32MK0512MCM064",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MK-GPK-MCM-with-CAN-FD-Family-DataSheet-DS60001519E.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "DSPIC30F_A": {
+    "representative": "DSPIC30F6011A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70139G.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC32MZ_DAA": {
+    "representative": "PIC32MZ1025DAA288",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MZ-Graphics-%28DAK-DAL-DAR-DAS%29-Family-Datasheet-DS60001565D.pdf",
+    "ds_number": null,
+    "n_parts": 4
+  },
+  "PIC24FJ_GA702": {
+    "representative": "PIC24FJ64GA702",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GA705": {
+    "representative": "PIC24FJ64GA705",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GA704": {
+    "representative": "PIC24FJ64GA704",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GL405": {
+    "representative": "PIC24FJ128GL405",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GL406": {
+    "representative": "PIC24FJ128GL406",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GU405": {
+    "representative": "PIC24FJ128GU405",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ512GU410-Family-Data-Sheet-DS30010203D.pdf",
+    "ds_number": "DS30010203D",
+    "n_parts": 3
+  },
+  "PIC24FJ_GU406": {
+    "representative": "PIC24FJ128GU406",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ512GU410-Family-Data-Sheet-DS30010203D.pdf",
+    "ds_number": "DS30010203D",
+    "n_parts": 3
+  },
+  "PIC24FJ_GL408": {
+    "representative": "PIC24FJ128GL408",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ512GU410-Family-Data-Sheet-DS30010203D.pdf",
+    "ds_number": "DS30010203D",
+    "n_parts": 3
+  },
+  "PIC24FJ_GL410": {
+    "representative": "PIC24FJ128GL410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ512GU410-Family-Data-Sheet-DS30010203D.pdf",
+    "ds_number": "DS30010203D",
+    "n_parts": 3
+  },
+  "PIC32MK_MCA": {
+    "representative": "PIC32MK0128MCA028",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MK-Motor-Control-Family-Data-Sheet-DS60001690.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GU408": {
+    "representative": "PIC24FJ128GU408",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ512GU410-Family-Data-Sheet-DS30010203D.pdf",
+    "ds_number": "DS30010203D",
+    "n_parts": 3
+  },
+  "PIC24FJ_GU410": {
+    "representative": "PIC24FJ128GU410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ512GU410-Family-Data-Sheet-DS30010203D.pdf",
+    "ds_number": "DS30010203D",
+    "n_parts": 3
+  },
+  "PIC24FJ_GA006": {
+    "representative": "PIC24FJ64GA006",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39747F.pdf",
+    "ds_number": "DS39747F",
+    "n_parts": 3
+  },
+  "PIC24HJ_GP204": {
+    "representative": "PIC24HJ32GP204",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70289J.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GA010": {
+    "representative": "PIC24FJ96GA010",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39747F.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GA406": {
+    "representative": "PIC24FJ64GA406",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA412-GB412-Family-Data-Sheet-DS30010089E.pdf",
+    "ds_number": "DS30010089E",
+    "n_parts": 3
+  },
+  "AT90CAN": {
+    "representative": "AT90CAN32",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/doc7679.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GB406": {
+    "representative": "PIC24FJ64GB406",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA412-GB412-Family-Data-Sheet-DS30010089E.pdf",
+    "ds_number": "DS30010089E",
+    "n_parts": 3
+  },
+  "PIC24FJ_GA410": {
+    "representative": "PIC24FJ64GA410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA412-GB412-Family-Data-Sheet-DS30010089E.pdf",
+    "ds_number": "DS30010089E",
+    "n_parts": 3
+  },
+  "PIC18F_J65": {
+    "representative": "PIC18F66J65",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39762f.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24FJ_GB410": {
+    "representative": "PIC24FJ64GB410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA412-GB412-Family-Data-Sheet-DS30010089E.pdf",
+    "ds_number": "DS30010089E",
+    "n_parts": 3
+  },
+  "PIC24FJ_GA412": {
+    "representative": "PIC24FJ64GA412",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA412-GB412-Family-Data-Sheet-DS30010089E.pdf",
+    "ds_number": "DS30010089E",
+    "n_parts": 3
+  },
+  "PIC24FJ_GB412": {
+    "representative": "PIC24FJ64GB412",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA412-GB412-Family-Data-Sheet-DS30010089E.pdf",
+    "ds_number": "DS30010089E",
+    "n_parts": 3
+  },
+  "AT91M": {
+    "representative": "AT91M40800",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc1393.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC24HJ256xx": {
+    "representative": "PIC24HJ256GP210A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70592d.pdf",
+    "ds_number": null,
+    "n_parts": 3
+  },
+  "PIC10F32x": {
+    "representative": "PIC10F320",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC10%28L%29F320-322-Data-Sheet-40001585E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC10F22x": {
+    "representative": "PIC10F220",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001270F.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC12F50x": {
+    "representative": "PIC12F508",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41236E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC16F52x": {
+    "representative": "PIC16F527",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001652D.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC12F51x": {
+    "representative": "PIC12F519",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41313B.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC16F50x": {
+    "representative": "PIC16F505",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41236E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC12F61x": {
+    "representative": "PIC12F617",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41302D.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC16F61x": {
+    "representative": "PIC16F610",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41288F.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "ATSAMD09": {
+    "representative": "ATSAMD09C13",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42414-SAM-D09_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "ATSAMD11": {
+    "representative": "ATSAMD11C14",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42363-SAM-D11_Summary.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC16F67x": {
+    "representative": "PIC16F676",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40039F.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GP202": {
+    "representative": "PIC24FJ32GP202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GP203": {
+    "representative": "PIC24FJ32GP203",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GU202": {
+    "representative": "PIC24FJ32GU202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GP205": {
+    "representative": "PIC24FJ32GP205",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "AT89LS": {
+    "representative": "AT89LS51",
+    "datasheet_url": null,
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24EP_MC203": {
+    "representative": "PIC24EP32MC203",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24EP_GP203": {
+    "representative": "PIC24EP32GP203",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GU203": {
+    "representative": "PIC24FJ32GU203",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GL302": {
+    "representative": "PIC24FJ64GL302",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ128GL306-Family-Data-Sheet-DS30010198B.pdf",
+    "ds_number": "DS30010198B",
+    "n_parts": 2
+  },
+  "PIC18F_K83": {
+    "representative": "PIC18F25K83",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18%28L%29F2526K83-Data-Sheet-DS40001943C.pdf",
+    "ds_number": "DS40001943C",
+    "n_parts": 2
+  },
+  "PIC24FJ_GU205": {
+    "representative": "PIC24FJ64GU205",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": "DS30010221",
+    "n_parts": 2
+  },
+  "PIC24FJ_GL305": {
+    "representative": "PIC24FJ64GL305",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ128GL306-Family-Data-Sheet-DS30010198B.pdf",
+    "ds_number": "DS30010198B",
+    "n_parts": 2
+  },
+  "PIC24FJ_GL303": {
+    "representative": "PIC24FJ64GL303",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ128GL306-Family-Data-Sheet-DS30010198B.pdf",
+    "ds_number": "DS30010198B",
+    "n_parts": 2
+  },
+  "PIC24F_KL401": {
+    "representative": "PIC24F08KL401",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24F_KL402": {
+    "representative": "PIC24F08KL402",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GL306": {
+    "representative": "PIC24FJ64GL306",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ128GL306-Family-Data-Sheet-DS30010198B.pdf",
+    "ds_number": "DS30010198B",
+    "n_parts": 2
+  },
+  "PIC24F_KA101": {
+    "representative": "PIC24F08KA101",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39927c.pdf",
+    "ds_number": "DS39927C",
+    "n_parts": 2
+  },
+  "PIC24F_KA102": {
+    "representative": "PIC24F08KA102",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39927c.pdf",
+    "ds_number": "DS39927C",
+    "n_parts": 2
+  },
+  "PIC16F81x": {
+    "representative": "PIC16F818",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39598F.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_MC101": {
+    "representative": "PIC24FJ16MC101",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009997e.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_MC102": {
+    "representative": "PIC24FJ16MC102",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009997e.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24F_KM102": {
+    "representative": "PIC24F16KM102",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf",
+    "ds_number": "DS30003030C",
+    "n_parts": 2
+  },
+  "PIC24F_KM202": {
+    "representative": "PIC24F08KM202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf",
+    "ds_number": "DS30003030C",
+    "n_parts": 2
+  },
+  "PIC24F_KA301": {
+    "representative": "PIC24F16KA301",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009995e.pdf",
+    "ds_number": "DS30009995E",
+    "n_parts": 2
+  },
+  "PIC18F_J16": {
+    "representative": "PIC18F66J16",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39778e.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GA102": {
+    "representative": "PIC24FJ32GA102",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39951C.pdf",
+    "ds_number": "DS39951C",
+    "n_parts": 2
+  },
+  "PIC24F_KA302": {
+    "representative": "PIC24F16KA302",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009995e.pdf",
+    "ds_number": "DS30009995E",
+    "n_parts": 2
+  },
+  "PIC24F_KM204": {
+    "representative": "PIC24F08KM204",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf",
+    "ds_number": "DS30003030C",
+    "n_parts": 2
+  },
+  "PIC24FJ_GB002": {
+    "representative": "PIC24FJ32GB002",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39940d.pdf",
+    "ds_number": "DS39940D",
+    "n_parts": 2
+  },
+  "PIC24FJ_GA104": {
+    "representative": "PIC24FJ32GA104",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39951C.pdf",
+    "ds_number": "DS39951C",
+    "n_parts": 2
+  },
+  "DSPIC33CK_MPT": {
+    "representative": "DSPIC33CK256MPT608",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33CK512MPT608-Family-Data-Sheet-DS70005501.pdf",
+    "ds_number": "DS70005501",
+    "n_parts": 2
+  },
+  "PIC24F_KA304": {
+    "representative": "PIC24F16KA304",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009995e.pdf",
+    "ds_number": "DS30009995E",
+    "n_parts": 2
+  },
+  "PIC24FJ_GA306": {
+    "representative": "PIC24FJ64GA306",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GA202": {
+    "representative": "PIC24FJ64GA202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24HJ_GP304": {
+    "representative": "PIC24HJ16GP304",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70289J.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GB004": {
+    "representative": "PIC24FJ32GB004",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ64GU205_Family_Datasheet_DS30010221.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GB202": {
+    "representative": "PIC24FJ64GB202",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GA204": {
+    "representative": "PIC24FJ64GA204",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GA308": {
+    "representative": "PIC24FJ64GA308",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GA008": {
+    "representative": "PIC24FJ64GA008",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GB204": {
+    "representative": "PIC24FJ64GB204",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GA310": {
+    "representative": "PIC24FJ64GA310",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC18F_J55": {
+    "representative": "PIC18F66J55",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39775c.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24HJ_GP502": {
+    "representative": "PIC24HJ64GP502",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70293G.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GC006": {
+    "representative": "PIC24FJ64GC006",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24HJ_GP504": {
+    "representative": "PIC24HJ64GP504",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70293G.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GC010": {
+    "representative": "PIC24FJ64GC010",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC18F_J72": {
+    "representative": "PIC18F86J72",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39663f.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GB206": {
+    "representative": "PIC24FJ128GB206",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24FJ_GB210": {
+    "representative": "PIC24FJ128GB210",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "ATUC2": {
+    "representative": "ATUC256L4U",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/doc32000.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24EP_GU810": {
+    "representative": "PIC24EP256GU810",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC24EP_GU814": {
+    "representative": "PIC24EP256GU814",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "ATMEGA2xxx": {
+    "representative": "ATMEGA2561",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf",
+    "ds_number": null,
+    "n_parts": 2
+  },
+  "PIC18F6393": {
+    "representative": "PIC18F6393",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39896c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8393": {
+    "representative": "PIC18F8393",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39896c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "ATTINY9xxx": {
+    "representative": "ATTINY9",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/8127_125.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "ATTINY5xxx": {
+    "representative": "ATTINY5",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/8127_125.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F1571": {
+    "representative": "PIC12F1571",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001723D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F54": {
+    "representative": "PIC16F54",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41201B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F1572": {
+    "representative": "PIC12F1572",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001723D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F1501": {
+    "representative": "PIC12F1501",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001615C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12LF1552": {
+    "representative": "PIC12LF1552",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001674F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F60x": {
+    "representative": "PIC12F609",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41302D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1503": {
+    "representative": "PIC16F1503",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001607D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F57": {
+    "representative": "PIC16F57",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41201B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F1612": {
+    "representative": "PIC12F1612",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001737C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F75x": {
+    "representative": "PIC12F752",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001576D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F57x": {
+    "representative": "PIC16F570",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001684F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1554": {
+    "representative": "PIC16LF1554",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001748B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1613": {
+    "representative": "PIC16F1613",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001737C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1703": {
+    "representative": "PIC16F1703",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F75x": {
+    "representative": "PIC16F753",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001709D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1574": {
+    "representative": "PIC16F1574",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001782C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F1822": {
+    "representative": "PIC12F1822",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41406B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1704": {
+    "representative": "PIC16F1704",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1507": {
+    "representative": "PIC16F1507",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001586D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F62x": {
+    "representative": "PIC12F629",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/41190G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1614": {
+    "representative": "PIC16F1614",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16(L)F16148-14-20-Pin-8-Bit-Flash-MCU-Data-sheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1578": {
+    "representative": "PIC16F1578",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001782C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12HV61x": {
+    "representative": "PIC12HV615",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41302D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1575": {
+    "representative": "PIC16F1575",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001782C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1705": {
+    "representative": "PIC16F1705",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1559": {
+    "representative": "PIC16LF1559",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001748B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1618": {
+    "representative": "PIC16F1618",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16(L)F16148-14-20-Pin-8-Bit-Flash-MCU-Data-sheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1824": {
+    "representative": "PIC16F1824",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41406B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1508": {
+    "representative": "PIC16F1508",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16-L-F1508-9-Microcontroller-Data-Sheet-DS40001609.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1823": {
+    "representative": "PIC16F1823",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41406B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F67x": {
+    "representative": "PIC12F675",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/41190G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1707": {
+    "representative": "PIC16F1707",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F1840": {
+    "representative": "PIC12F1840",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001441F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1579": {
+    "representative": "PIC16F1579",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001782C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1902": {
+    "representative": "PIC16LF1902",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001455F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F722xx": {
+    "representative": "PIC16F722A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001417C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1509": {
+    "representative": "PIC16F1509",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC12F1501-16F1503-7-8-9-High-Temp-Data-Sheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1512": {
+    "representative": "PIC16F1512",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41610B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1615": {
+    "representative": "PIC16F1615",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1708": {
+    "representative": "PIC16F1708",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KL100": {
+    "representative": "PIC24F04KL100",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1566": {
+    "representative": "PIC16LF1566",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001809A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1619": {
+    "representative": "PIC16F1619",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F723xx": {
+    "representative": "PIC16F723A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001417C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1903": {
+    "representative": "PIC16LF1903",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001455F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1454": {
+    "representative": "PIC16F1454",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1454-5-9-14-20-Pin-8-Bit-Flash-USB-Microcontroller-with-XLP-Technology-DS40001639C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1709": {
+    "representative": "PIC16F1709",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1513": {
+    "representative": "PIC16F1513",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41610B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KL101": {
+    "representative": "PIC24F04KL101",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F63x": {
+    "representative": "PIC12F635",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41232D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1825": {
+    "representative": "PIC16F1825",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41406B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1764": {
+    "representative": "PIC16F1764",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1764-5-8-9-Data-Sheet-40001775E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1906": {
+    "representative": "PIC16LF1906",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001455F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1713": {
+    "representative": "PIC16F1713",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F59": {
+    "representative": "PIC16F59",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41213D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1516": {
+    "representative": "PIC16F1516",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001452F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC12F68x": {
+    "representative": "PIC12F683",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/41211D_.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1826": {
+    "representative": "PIC16F1826",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41363A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1828": {
+    "representative": "PIC16F1828",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41406B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1765": {
+    "representative": "PIC16F1765",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1764-5-8-9-Data-Sheet-40001775E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1455": {
+    "representative": "PIC16F1455",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1454-5-9-14-20-Pin-8-Bit-Flash-USB-Microcontroller-with-XLP-Technology-DS40001639C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1567": {
+    "representative": "PIC16LF1567",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001809A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1716": {
+    "representative": "PIC16F1716",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F71x": {
+    "representative": "PIC16F716",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/41206B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1829": {
+    "representative": "PIC16F1829",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41406B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1827": {
+    "representative": "PIC16F1827",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41363A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KA200": {
+    "representative": "PIC24F04KA200",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009937c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KL301": {
+    "representative": "PIC24F08KL301",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1718": {
+    "representative": "PIC16F1718",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1768": {
+    "representative": "PIC16F1768",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1764-5-8-9-Data-Sheet-40001775E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1847": {
+    "representative": "PIC16F1847",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001453G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KL302": {
+    "representative": "PIC24F08KL302",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KA201": {
+    "representative": "PIC24F04KA201",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009937c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1459": {
+    "representative": "PIC16F1459",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1454-5-9-14-20-Pin-8-Bit-Flash-USB-Microcontroller-with-XLP-Technology-DS40001639C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1938": {
+    "representative": "PIC16F1938",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001574D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1518": {
+    "representative": "PIC16F1518",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001452F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1769": {
+    "representative": "PIC16F1769",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC16LF1764-5-8-9-Data-Sheet-40001775E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1904": {
+    "representative": "PIC16LF1904",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001455F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F78x": {
+    "representative": "PIC16F785",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41249E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KL200": {
+    "representative": "PIC24F08KL200",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1717": {
+    "representative": "PIC16F1717",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KL201": {
+    "representative": "PIC24F08KL201",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24F16KL402-Family-Data-Sheet-DS30001037D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16LF1907": {
+    "representative": "PIC16LF1907",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001455F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1782": {
+    "representative": "PIC16F1782",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41410B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1933": {
+    "representative": "PIC16F1933",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41575C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F627xx": {
+    "representative": "PIC16F627A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40044G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F69x": {
+    "representative": "PIC16F690",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001262F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1783": {
+    "representative": "PIC16F1783",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41410B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1936": {
+    "representative": "PIC16F1936",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41364E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1517": {
+    "representative": "PIC16F1517",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001452F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1786": {
+    "representative": "PIC16F1786",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41623A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1519": {
+    "representative": "PIC16F1519",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001452F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16HV54x": {
+    "representative": "PIC16HV540",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40197b.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1773": {
+    "representative": "PIC16F1773",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001810B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1719": {
+    "representative": "PIC16F1719",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001708A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1788": {
+    "representative": "PIC16F1788",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001675C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1934": {
+    "representative": "PIC16F1934",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41364E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1937": {
+    "representative": "PIC16F1937",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41364E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1526": {
+    "representative": "PIC16F1526",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001458D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1776": {
+    "representative": "PIC16F1776",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001810B.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1784": {
+    "representative": "PIC16F1784",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41623A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1527": {
+    "representative": "PIC16F1527",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001458D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1939": {
+    "representative": "PIC16F1939",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F-LF-1938-39-Micorcontroller-Data-Sheet-40001574E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1778": {
+    "representative": "PIC16F1778",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16(L)F1777_8_9_Family_Data_Sheet_40001819D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F628xx": {
+    "representative": "PIC16F628A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40044G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1789": {
+    "representative": "PIC16F1789",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001675C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1787": {
+    "representative": "PIC16F1787",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41623A.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F70x": {
+    "representative": "PIC16F707",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001418C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KM101": {
+    "representative": "PIC24F08KM101",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1946": {
+    "representative": "PIC16F1946",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001414E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "ATXMEGA8xx": {
+    "representative": "ATXMEGA8E5",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42005-8-and-16-bit-AVR-Microcontrollers-XMEGA-E_Manual.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F648xx": {
+    "representative": "PIC16F648A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40044G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1947": {
+    "representative": "PIC16F1947",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001414E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1777": {
+    "representative": "PIC16F1777",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16(L)F1777_8_9_Family_Data_Sheet_40001819D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F72": {
+    "representative": "PIC16F72",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39597C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F1779": {
+    "representative": "PIC16F1779",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16(L)F1777_8_9_Family_Data_Sheet_40001819D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F1220": {
+    "representative": "PIC18F1220",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30009605G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2221": {
+    "representative": "PIC18F2221",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39689f.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F1230": {
+    "representative": "PIC18F1230",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39758D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24FJ_MC104": {
+    "representative": "PIC24FJ32MC104",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/30009997e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24F_KM104": {
+    "representative": "PIC24F16KM104",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/PIC24FV16KM204-Family-Data-Sheet-DS30003030C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F1320": {
+    "representative": "PIC18F1320",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30009605G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24HJ_GP201": {
+    "representative": "PIC24HJ12GP201",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70282E.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2321": {
+    "representative": "PIC18F2321",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39689f.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "AT80C": {
+    "representative": "AT80C51RD2",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc4113.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F87": {
+    "representative": "PIC16F87",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30487D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F1330": {
+    "representative": "PIC18F1330",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39758D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4221": {
+    "representative": "PIC18F4221",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39689f.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "ATSAMG53": {
+    "representative": "ATSAMG53",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-11240-32-bit-Cortex-M4-Microcontroller-SAM-G53_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2450": {
+    "representative": "PIC18F2450",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39760d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "ATSAMG51": {
+    "representative": "ATSAMG51",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-11209-32-bit-Cortex-M4-Microcontroller-SAM-G51_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F88": {
+    "representative": "PIC16F88",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30487D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4321": {
+    "representative": "PIC18F4321",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39689f.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F94x": {
+    "representative": "PIC16F946",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/41250F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4450": {
+    "representative": "PIC18F4450",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39760d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2410": {
+    "representative": "PIC18F2410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "ATSAMG54": {
+    "representative": "ATSAMG54",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-11266-32-bit-Cortex-M4-Microcontroller-SAM-G54_Summary-Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6310": {
+    "representative": "PIC18F6310",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/39635_c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6390": {
+    "representative": "PIC18F6390",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39629c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24HJ_GP302": {
+    "representative": "PIC24HJ32GP302",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70293G.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4410": {
+    "representative": "PIC18F4410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2420": {
+    "representative": "PIC18F2420",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2420-2520-4420-4520-28-40-44-Pin-Microcontrollers-with-XLP-Technology-30009613F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F73": {
+    "representative": "PIC16F73",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30325b.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6410": {
+    "representative": "PIC18F6410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/39635_c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4420": {
+    "representative": "PIC18F4420",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2420-2520-4420-4520-28-40-44-Pin-Microcontrollers-with-XLP-Technology-30009613F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F84xx": {
+    "representative": "PIC16F84A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/35007C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2510": {
+    "representative": "PIC18F2510",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "MTR661": {
+    "representative": "MTR6618",
+    "datasheet_url": null,
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6490": {
+    "representative": "PIC18F6490",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39629c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8310": {
+    "representative": "PIC18F8310",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/39635_c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2423": {
+    "representative": "PIC18F2423",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39755c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2431": {
+    "representative": "PIC18F2431",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39616d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2331": {
+    "representative": "PIC18F2331",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39616d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8390": {
+    "representative": "PIC18F8390",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39629c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2520": {
+    "representative": "PIC18F2520",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2420-2520-4420-4520-28-40-44-Pin-Microcontrollers-with-XLP-Technology-30009613F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4510": {
+    "representative": "PIC18F4510",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F73x": {
+    "representative": "PIC16F737",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30498D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4423": {
+    "representative": "PIC18F4423",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39755c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6493": {
+    "representative": "PIC18F6493",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39896c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2455": {
+    "representative": "PIC18F2455",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8410": {
+    "representative": "PIC18F8410",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/39635_c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4520": {
+    "representative": "PIC18F4520",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2420-2520-4420-4520-28-40-44-Pin-Microcontrollers-with-XLP-Technology-30009613F.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2515": {
+    "representative": "PIC18F2515",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2550": {
+    "representative": "PIC18F2550",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4331": {
+    "representative": "PIC18F4331",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39616d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2523": {
+    "representative": "PIC18F2523",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39755c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8490": {
+    "representative": "PIC18F8490",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39629c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F76": {
+    "representative": "PIC16F76",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30325b.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4455": {
+    "representative": "PIC18F4455",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F74": {
+    "representative": "PIC16F74",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30325b.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2458": {
+    "representative": "PIC18F2458",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39887c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4431": {
+    "representative": "PIC18F4431",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39616d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2525": {
+    "representative": "PIC18F2525",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39626e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4515": {
+    "representative": "PIC18F4515",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F74x": {
+    "representative": "PIC16F747",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30498D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4550": {
+    "representative": "PIC18F4550",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4523": {
+    "representative": "PIC18F4523",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39755c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F76x": {
+    "representative": "PIC16F767",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30498D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2480": {
+    "representative": "PIC18F2480",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39637d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4458": {
+    "representative": "PIC18F4458",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39887c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8493": {
+    "representative": "PIC18F8493",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39896c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4525": {
+    "representative": "PIC18F4525",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39626e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2610": {
+    "representative": "PIC18F2610",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4480": {
+    "representative": "PIC18F4480",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39637d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F77": {
+    "representative": "PIC16F77",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30325b.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2220": {
+    "representative": "PIC18F2220",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39599g.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2620": {
+    "representative": "PIC18F2620",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39626e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4610": {
+    "representative": "PIC18F4610",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39636d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F77x": {
+    "representative": "PIC16F777",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/30498D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2320": {
+    "representative": "PIC18F2320",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39599g.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2553": {
+    "representative": "PIC18F2553",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39887c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2580": {
+    "representative": "PIC18F2580",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39637d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC16F877xx": {
+    "representative": "PIC16F877A",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39582C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4620": {
+    "representative": "PIC18F4620",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39626e.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4553": {
+    "representative": "PIC18F4553",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39887c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4580": {
+    "representative": "PIC18F4580",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39637d.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4220": {
+    "representative": "PIC18F4220",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39599g.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6527": {
+    "representative": "PIC18F6527",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4320": {
+    "representative": "PIC18F4320",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39599g.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2585": {
+    "representative": "PIC18F2585",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F2585_2680_4585_4680-data-sheet-30009625D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4585": {
+    "representative": "PIC18F4585",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F2585_2680_4585_4680-data-sheet-30009625D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8527": {
+    "representative": "PIC18F8527",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2680": {
+    "representative": "PIC18F2680",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F2585_2680_4585_4680-data-sheet-30009625D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6622": {
+    "representative": "PIC18F6622",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4680": {
+    "representative": "PIC18F4680",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F2585_2680_4585_4680-data-sheet-30009625D.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC24EP_GP806": {
+    "representative": "PIC24EP512GP806",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/70616g.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2682": {
+    "representative": "PIC18F2682",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39761c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8622": {
+    "representative": "PIC18F8622",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4682": {
+    "representative": "PIC18F4682",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39761c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F2685": {
+    "representative": "PIC18F2685",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39761c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F4685": {
+    "representative": "PIC18F4685",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39761c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6520": {
+    "representative": "PIC18F6520",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39609C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6627": {
+    "representative": "PIC18F6627",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8520": {
+    "representative": "PIC18F8520",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/39609C.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8627": {
+    "representative": "PIC18F8627",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6722": {
+    "representative": "PIC18F6722",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "AT91R": {
+    "representative": "AT91R48",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc1795.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6628": {
+    "representative": "PIC18F6628",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8628": {
+    "representative": "PIC18F8628",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8722": {
+    "representative": "PIC18F8722",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F6723": {
+    "representative": "PIC18F6723",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "PIC18F8723": {
+    "representative": "PIC18F8723",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39646c.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  },
+  "AT91RM": {
+    "representative": "AT91RM9200",
+    "datasheet_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-1768-32-bit-ARM920T-Embedded-Microprocessor-AT91RM9200_Datasheet.pdf",
+    "ds_number": null,
+    "n_parts": 1
+  }
+}

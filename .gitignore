@@ -1,0 +1,26 @@
+# PDFs (Microchip's content, not ours to redistribute, ~2.4 GB anyway)
+datasheets/
+
+# pdfplumber cache (regenerated automatically)
+.pdf_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Intermediate work files (kept in repo: families*, family_datasheets*, part_to_pdf, vectorized_all)
+vectorized_all.partial.json
+vectorized_all.contaminated.json
+*.tmp

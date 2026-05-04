@@ -1,0 +1,122 @@
+[
+  {
+    "part": "PIC24EP256GU810",
+    "pdf": "datasheets\\dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf"
+  },
+  {
+    "part": "DSPIC33CK32MP502",
+    "pdf": "datasheets\\dsPIC33CK1024MP710-Family-Data-Sheet-DS70005496.pdf"
+  },
+  {
+    "part": "PIC24FJ1024GA606",
+    "pdf": "datasheets\\PIC24FJ256GA705-Family-Data-Sheet-DS30010118E.pdf"
+  },
+  {
+    "part": "DSPIC33FJ64GP708A",
+    "pdf": "datasheets\\75018c.pdf"
+  },
+  {
+    "part": "PIC32MX170F256D",
+    "pdf": "datasheets\\PIC32MX1XX2XX283644-PIN_Datasheet_DS60001168L.pdf"
+  },
+  {
+    "part": "ATSAM4LS2B",
+    "pdf": "datasheets\\Atmel-11100-32-bitCortex-M4-Microcontroller-SAM4S_Datasheet.pdf"
+  },
+  {
+    "part": "PIC32MZ1025DAL169",
+    "pdf": "datasheets\\PIC32MZ-Graphics-_28DAK-DAL-DAR-DAS_29-Family-Datasheet-DS60001565D.pdf"
+  },
+  {
+    "part": "ATMEGA16A",
+    "pdf": "datasheets\\ATmega808-09-1608-09-DataSheet-DS40002172C.pdf"
+  },
+  {
+    "part": "DSPIC33FJ64GP802",
+    "pdf": "datasheets\\70000652f.pdf"
+  },
+  {
+    "part": "ATTINY406",
+    "pdf": "datasheets\\8127_125.pdf"
+  },
+  {
+    "part": "DSPIC33AK512MC506",
+    "pdf": "datasheets\\dsPIC33AK512MPS512-Family-Data-Sheet-DS70005591.pdf"
+  },
+  {
+    "part": "PIC32MZ0512EFE100",
+    "pdf": "datasheets\\PIC32MZ-Embedded-Connectivity-with-Floating-Point-Unit-Family-Data-Sheet-DS60001320H.pdf"
+  },
+  {
+    "part": "ATSAM3N0A",
+    "pdf": "datasheets\\Atmel-11011-32-bit-Cortex-M3-Microcontroller-SAM3N_Datasheet.pdf"
+  },
+  {
+    "part": "PIC32MX320F064H",
+    "pdf": "datasheets\\PIC32MX330350370430450470_Datasheet_DS60001185H.pdf"
+  },
+  {
+    "part": "ATSAME70Q19",
+    "pdf": "datasheets\\SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527.pdf"
+  },
+  {
+    "part": "DSPIC33CH64MP506",
+    "pdf": "datasheets\\dsPIC33CH128MP508-Family-Data-Sheet-DS70005319.pdf"
+  },
+  {
+    "part": "DSPIC33EV32GM003",
+    "pdf": "datasheets\\dsPIC33EVXXXGM00X-10X-Family-Data-Sheet-DS70005144H.pdf"
+  },
+  {
+    "part": "ATMEGA325",
+    "pdf": "datasheets\\ATmega3208-09-DataSheet-DS40002174C.pdf"
+  },
+  {
+    "part": "ATSAMA5D24",
+    "pdf": "datasheets\\SAMA5D2-Series-Datasheet-ds60001476.pdf"
+  },
+  {
+    "part": "DSPIC33EP128GS805",
+    "pdf": "datasheets\\dsPIC33EPXXGS202-Family-Data-Sheet-DS70005208E.pdf"
+  },
+  {
+    "part": "ATXMEGA32A4U",
+    "pdf": "datasheets\\Atmel-42005-8-and-16-bit-AVR-Microcontrollers-XMEGA-E_Manual.pdf"
+  },
+  {
+    "part": "ATSAMC20J18A",
+    "pdf": "datasheets\\SAM-C20-C21-Family-Data-Sheet-DS60001479.pdf"
+  },
+  {
+    "part": "PIC32CM5164JH01032",
+    "pdf": "datasheets\\PIC32CM-64-32-JH00-Family-Data-Sheet-DS60001880.pdf"
+  },
+  {
+    "part": "ATSAMD51P19A",
+    "pdf": "datasheets\\SAM-D5x-E5x-Family-Data-Sheet-DS60001507.pdf"
+  },
+  {
+    "part": "DSPIC30F3014",
+    "pdf": "datasheets\\70139G.pdf"
+  },
+  {
+    "part": "DSPIC33CK256MC103",
+    "pdf": "datasheets\\dsPIC33CK256MC506-Family-Data-Sheet-DS70005473C.pdf"
+  },
+  {
+    "part": "ATMEGA640",
+    "pdf": "datasheets\\Atmel-8285-8-bit-AVR-Microcontroller-ATmega165A_PA_325A_PA_3250A_PA_645A_P_6450A_P_datasheet.pdf"
+  },
+  {
+    "part": "ATTINY817",
+    "pdf": "datasheets\\ATtiny804-06-07-1604-06-07-DataSheet-DS40002312A.pdf"
+  },
+  {
+    "part": "DSPIC33EP512GM604",
+    "pdf": "datasheets\\70000689d.pdf"
+  },
+  {
+    "part": "PIC32MX675F512H",
+    "pdf": "datasheets\\PIC32MX5XX6XX7XX_Family_29Datasheet_DS60001156K.pdf"
+  }
+]
